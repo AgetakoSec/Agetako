@@ -1,14 +1,20 @@
 import os
 
-from config.site_config import (BASE_PATH, FILTERED_FILE, LATEST_FILE,
-                                LOG_FILE, SITE_CONFIG)
+from config.site_config import (
+    BASE_PATH,
+    FILTERED_FILE,
+    LATEST_FILE,
+    LOG_FILE,
+    SITE_CONFIG,
+)
 from data_fetchers.fetch_beautifulsoup import fetch_data_with_beautifulsoup
 from data_fetchers.fetch_rss import fetch_data_with_rss
 from data_fetchers.fetch_selenium import fetch_data_with_selenium
 from processors.data_processor import filter_articles
 from processors.xlsx_exporter import save_filtered_articles_to_xlsx
-from utils.file_utils import (save_latest_site_entries, save_to_csv, save_to_latest_csv)
+from utils.file_utils import save_latest_site_entries, save_to_csv, save_to_latest_csv
 from utils.logger import setup_logger
+from generate_rss import generate_rss
 
 logger = setup_logger(LOG_FILE)
 
