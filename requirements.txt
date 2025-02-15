@@ -16,3 +16,4 @@ logging
 
 # 時間・日付関連
 tzlocal
+cvss
