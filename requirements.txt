@@ -1,0 +1,18 @@
+# 基本ライブラリ
+pandas
+openpyxl
+python-dateutil
+feedparser
+beautifulsoup4
+requests
+cloudscraper
+
+# Selenium関連
+selenium
+webdriver-manager
+
+# ログ関連
+logging
+
+# 時間・日付関連
+tzlocal

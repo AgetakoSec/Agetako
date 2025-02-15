@@ -1,0 +1,33 @@
+name: Update RSS Feed
+
+on:
+  schedule:
+    - cron: "0 * * * *" # 毎時実行
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v3
+
+      - name: Python Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: 依存パッケージをインストール
+        run: pip install -r requirements.txt
+
+      - name: データ収集＆RSS生成
+        run: python main.py
+
+      - name: 変更をコミット＆プッシュ
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add rss.xml
+          git commit -m "Update RSS feed" || exit 0
+          git push
