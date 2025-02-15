@@ -29,10 +29,12 @@ jobs:
       - name: データ収集＆RSS生成
         run: python main.py
 
-      - name: 変更をコミット＆プッシュ
+      - name: Commit & Push RSS
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add rss.xml
           git commit -m "Update RSS feed" || exit 0
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
