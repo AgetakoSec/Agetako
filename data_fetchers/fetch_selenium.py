@@ -32,6 +32,7 @@ def setup_webdriver():
 
 def fetch_data_with_selenium(config):
     driver = setup_webdriver()
+    driver.set_page_load_timeout(60)
     try:
         driver.get(config["url"])
         WebDriverWait(driver, 20).until(
