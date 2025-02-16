@@ -2,8 +2,8 @@ name: Update RSS Feed
 
 on:
   schedule:
-    # 平日 (月曜〜金曜) の 09:00 〜 18:45 は 15分に1回実行
-    - cron: "*/15 9-18 * * 1-5"
+    # 平日 09:00 ～ 17:00 は 20分に1回
+    - cron: "*/20 9-17 * * 1-5"
 
   workflow_dispatch: # 手動実行も可能
 
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: 依存パッケージをインストール (キャッシュを活用)
+      - name: 依存パッケージをインストール (キャッシュを利用)
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
