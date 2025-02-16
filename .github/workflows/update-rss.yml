@@ -2,11 +2,8 @@ name: Update RSS Feed
 
 on:
   schedule:
-    # 平日 (月曜〜金曜) の 08:30 〜 19:30 は 10分に1回実行
-    - cron: "*/10 8-19 * * 1-5"
-
-    # それ以外 (平日の 0:00〜8:25 & 19:35〜23:55, 土日) は1時間に1回実行
-    - cron: "0 * * * *"
+    # 平日 (月曜〜金曜) の 09:00 〜 18:45 は 15分に1回実行
+    - cron: "*/15 9-18 * * 1-5"
 
   workflow_dispatch: # 手動実行も可能
 
@@ -22,6 +19,14 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
+
+      - name: 依存パッケージをインストール (キャッシュを活用)
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: 依存パッケージをインストール
         run: pip install -r requirements.txt
