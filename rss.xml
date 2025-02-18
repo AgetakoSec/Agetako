@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 18 Feb 2025 14:51:59 +0000</lastBuildDate><item><title>"JSA83011 : 2024-07 Security Bulletin: Junos OS and Junos OS Evolved: Receipt of malformed BGP path attributes leads to RPD crash (CVE-2024-39549 and CVE-2024-39564)"</title><link>https://supportportal.juniper.net/s/article/2024-07-Security-Bulletin-Junos-OS-Receipt-of-malformed-BGP-path-attributes-leads-to-a-memory-leak-CVE-2024-39549</link><description>""
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 18 Feb 2025 15:25:05 +0000</lastBuildDate><item><title>"JSA83011 : 2024-07 Security Bulletin: Junos OS and Junos OS Evolved: Receipt of malformed BGP path attributes leads to RPD crash (CVE-2024-39549 and CVE-2024-39564)"</title><link>https://supportportal.juniper.net/s/article/2024-07-Security-Bulletin-Junos-OS-Receipt-of-malformed-BGP-path-attributes-leads-to-a-memory-leak-CVE-2024-39549</link><description>""
 
 🛑 **CVE:** CVE-2024-39549, CVE-2024-39564
 📊 **CVSS Score:** </description><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Cisco Secure Email and Web Manager, Secure Email Gateway, and Secure Web Appliance SNMP Polling Information Disclosure Vulnerability"</title><link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-sma-wsa-snmp-inf-FqPvL8sX</link><description>""
@@ -173,12 +173,12 @@
 📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0111 PAN-OS: Authenticated File Read Vulnerability in the Management Web Interface (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0111</link><description>""""
 
 🛑 **CVE:** CVE-2025-0111
-📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0112 Cortex XDR Agent: Local Windows User Can Disable the Agent (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0112</link><description>""""
-
-🛑 **CVE:** CVE-2025-0112
 📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0113 Cortex XDR Broker VM: Unauthorized Access to Broker VM Docker Containers(Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0113</link><description>""""
 
 🛑 **CVE:** CVE-2025-0113
+📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0112 Cortex XDR Agent: Local Windows User Can Disable the Agent (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0112</link><description>""""
+
+🛑 **CVE:** CVE-2025-0112
 📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0109 PAN-OS: Unauthenticated File Deletion Vulnerability on the Management Web Interface (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0109</link><description>""""
 
 🛑 **CVE:** CVE-2025-0109
@@ -193,7 +193,7 @@
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"VMSA-2025-0003: VMware Aria Operations for Logs and VMware Aria Operations updates address multiple vulnerabilities (CVE-2025-22218, CVE-2025-22219, CVE-2025-22220, CVE-2025-22221 and CVE-2025-22222)"</title><link>https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/security-advisories/0/25329</link><description>""
 
-🛑 **CVE:** CVE-2025-22221, CVE-2025-22219, CVE-2025-22222, CVE-2025-22218, CVE-2025-22220
+🛑 **CVE:** CVE-2025-22220, CVE-2025-22221, CVE-2025-22218, CVE-2025-22222, CVE-2025-22219
 📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBGN04808 rev.1 - HPE Intel E810 Series Ethernet Controllers, INTEL-SA-01236, Intel® 800 Series Ethernet Driver Software, Information Disclosure Vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04808en_us&amp;docLocale=en_US</link><description>""HPESBGN04808 rev.1 - HPE Intel E810 Series Ethernet Controllers, INTEL-SA-01236, Intel® 800 Series Ethernet Driver Software, Information Disclosure Vulnerability""
 
 🛑 **CVE:** 
@@ -214,7 +214,7 @@
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Citrix Secure Access Client for Mac Security Bulletin for CVE-2025-1222 and CVE-2025-1223"</title><link>https://support.citrix.com/s/article/CTX692679-citrix-secure-access-client-for-mac-security-bulletin-for-cve20251222-and-cve20251223</link><description>""
 
-🛑 **CVE:** CVE-2025-1222, CVE-2025-1223
+🛑 **CVE:** CVE-2025-1223, CVE-2025-1222
 📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"NetScaler Console and NetScaler Agent Security Bulletin for CVE-2024-12284"</title><link>https://support.citrix.com/s/article/CTX692579-netscaler-console-and-netscaler-agent-security-bulletin-for-cve202412284</link><description>""
 
 🛑 **CVE:** CVE-2024-12284
