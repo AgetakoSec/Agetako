@@ -140,10 +140,10 @@ def filter_articles():
                         cvss = extract_cvss(title + " " + description)
 
                     # それでもCVE, CVSSが '""' ならリンク先から取得
-                    if cve in ('', '""') or cvss in ('', '""'):
-                        fetched_cve, fetched_cvss_vector, fetched_cvss = fetch_cve_cvss_from_link(link)
-                        cve = cve if cve not in ('', '""') else fetched_cve
-                        cvss = cvss if cvss not in ('', '""') else fetched_cvss
+                    # if cve in ('', '""') or cvss in ('', '""'):
+                    #     fetched_cve, fetched_cvss_vector, fetched_cvss = fetch_cve_cvss_from_link(link)
+                    #     cve = cve if cve not in ('', '""') else fetched_cve
+                    #     cvss = cvss if cvss not in ('', '""') else fetched_cvss
 
                     row["CVE"] = cve
                     row["CVSS"] = cvss
