@@ -82,8 +82,8 @@ def fetch_cve_cvss_from_link(link):
             print(f"Failed to calculate CVSS score from vector {cvss_vector}: {e}")
 
     # CVEがあり、CVSSスコアが取得できなかった場合、NVDを参照
-    if cve and cvss_score in ('', '""'):
-        cvss_score = fetch_cvss_from_nvd(cve)
+    # if cve and cvss_score in ('', '""'):
+    #     cvss_score = fetch_cvss_from_nvd(cve)
 
     return cve, cvss_vector, cvss_score
 
