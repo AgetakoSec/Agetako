@@ -41,8 +41,8 @@ def generate_rss():
 
                 description_text = (
                     f"{row['Description']}\n\n"
-                    f"🛑 **CVE:** {cve}\n"
-                    f"📊 **CVSS Score:** {cvss}"
+                    f"**CVE:** {cve}\n"
+                    f"**CVSS Score:** {cvss}"
                 )
 
                 fe.description(description_text)
