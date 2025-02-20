@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Feb 2025 10:23:38 +0000</lastBuildDate><item><title>"Cisco Secure Email and Web Manager, Secure Email Gateway, and Secure Web Appliance Vulnerabilities"</title><link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-sma-wsa-multi-yKUJhS34</link><description>""
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Feb 2025 10:49:27 +0000</lastBuildDate><item><title>"Cisco Secure Email and Web Manager, Secure Email Gateway, and Secure Web Appliance Vulnerabilities"</title><link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-sma-wsa-multi-yKUJhS34</link><description>""
 
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"iOS 18.3.1 and iPadOS 18.3.1"</title><link>https://support.apple.com/en-us/122174</link><description>""
@@ -56,12 +56,12 @@
 📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"SolarWinds Trust Center Security Advisories | CVE-2024-45718"</title><link>https://www.solarwinds.com/trust-center/security-advisories/cve-2024-45718</link><description>""Sensitive data could be exposed to non-privileged users in a configuration file. Local access to the computer with a low-privileged account is required to access the configuration file containing the sensitive data.""
 
 🛑 **CVE:** CVE-2024-45718
-📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"JSA80837 : 2024-05 Reference Advisory: Junos OS and Junos OS Evolved: Multiple CVEs reported in OpenSSH"</title><link>https://supportportal.juniper.net/s/article/2024-05-Reference-Advisory-Junos-OS-and-Junos-OS-Evolved-Multiple-CVEs-reported-in-OpenSSH</link><description>""
-
-🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"JSA94663 : 2025-02: Out-of-Cycle Security Bulletin: Session Smart Router, Session Smart Conductor, WAN Assurance Router: API Authentication Bypass Vulnerability (CVE-2025-21589)"</title><link>https://supportportal.juniper.net/s/article/2025-02-Out-of-Cycle-Security-Bulletin-Session-Smart-Router-Session-Smart-Conductor-WAN-Assurance-Router-API-Authentication-Bypass-Vulnerability-CVE-2025-21589</link><description>""
 
 🛑 **CVE:** CVE-2025-21589
+📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"JSA80837 : 2024-05 Reference Advisory: Junos OS and Junos OS Evolved: Multiple CVEs reported in OpenSSH"</title><link>https://supportportal.juniper.net/s/article/2024-05-Reference-Advisory-Junos-OS-and-Junos-OS-Evolved-Multiple-CVEs-reported-in-OpenSSH</link><description>""
+
+🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"SolarWinds Trust Center Security Advisories | CVE-2024-52611"</title><link>https://www.solarwinds.com/trust-center/security-advisories/cve-2024-52611</link><description>""02/11/2025 The SolarWinds Platform is vulnerable to an information disclosure vulnerability through an error message. While the data does not provide anything sensitive, the information could assist an attacker in other malicious actions.""
 
 🛑 **CVE:** CVE-2024-52611
@@ -89,18 +89,18 @@
 📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Stork Quickstart guide"</title><link>https://kb.isc.org/docs/stork-quickstart-guide</link><description>""Introduction Installing Stork can seem somewhat confusing at first. The purpose of this quickstart guide is to layout the installation process in steps grouped by package manager or OS. Choose your OS/package manager from the table of contents on the right hand side to jump directly to the section that will cover the installation on your system. Stork Agent Since the Stork Agent may need to be installed more than once on disparate systems (example: to monitor BIND and Kea ...""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0112 Cortex XDR Agent: Local Windows User Can Disable the Agent (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0112</link><description>""""
-
-🛑 **CVE:** CVE-2025-0112
-📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0110 PAN-OS OpenConfig Plugin: Command Injection Vulnerability in OpenConfig Plugin (Severity: HIGH)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0110</link><description>""""
+📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0110 PAN-OS OpenConfig Plugin: Command Injection Vulnerability in OpenConfig Plugin (Severity: HIGH)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0110</link><description>""""
 
 🛑 **CVE:** CVE-2025-0110
-📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"PAN-SA-2025-0004 Chromium: Monthly Vulnerability Update (February 2025) (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/PAN-SA-2025-0004</link><description>""""
+📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0112 Cortex XDR Agent: Local Windows User Can Disable the Agent (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0112</link><description>""""
 
-🛑 **CVE:** 
+🛑 **CVE:** CVE-2025-0112
 📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0113 Cortex XDR Broker VM: Unauthorized Access to Broker VM Docker Containers(Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0113</link><description>""""
 
 🛑 **CVE:** CVE-2025-0113
+📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"PAN-SA-2025-0004 Chromium: Monthly Vulnerability Update (February 2025) (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/PAN-SA-2025-0004</link><description>""""
+
+🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBHF04792 rev.1 - Certain HPE ProLiant DL/ML, Alletra, Edgeline and Synergy Servers Using Certain Intel Processor BIOS, INTEL-SA-01166, 2024.4 IPU, Intel Processor Advisory, Local Denial of Service Vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf04792en_us&amp;docLocale=en_US</link><description>""HPESBHF04792 rev.1 - Certain HPE ProLiant DL/ML, Alletra, Edgeline and Synergy Servers Using Certain Intel Processor BIOS, INTEL-SA-01166, 2024.4 IPU, Intel Processor Advisory, Local Denial of Service Vulnerability""
 
 🛑 **CVE:** 
@@ -163,13 +163,13 @@
 🛑 **CVE:** "CVE-2025-21401"
 📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"VMSA-2025-0003: VMware Aria Operations for Logs and VMware Aria Operations updates address multiple vulnerabilities (CVE-2025-22218, CVE-2025-22219, CVE-2025-22220, CVE-2025-22221 and CVE-2025-22222)"</title><link>https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/security-advisories/0/25329</link><description>""
 
-🛑 **CVE:** CVE-2025-22222, CVE-2025-22218, CVE-2025-22221, CVE-2025-22220, CVE-2025-22219
+🛑 **CVE:** CVE-2025-22221, CVE-2025-22222, CVE-2025-22219, CVE-2025-22220, CVE-2025-22218
 📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"NetScaler Console and NetScaler Agent Security Bulletin for CVE-2024-12284"</title><link>https://support.citrix.com/s/article/CTX692579-netscaler-console-and-netscaler-agent-security-bulletin-for-cve202412284</link><description>""
 
 🛑 **CVE:** CVE-2024-12284
 📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Citrix Secure Access Client for Mac Security Bulletin for CVE-2025-1222 and CVE-2025-1223"</title><link>https://support.citrix.com/s/article/CTX692679-citrix-secure-access-client-for-mac-security-bulletin-for-cve20251222-and-cve20251223</link><description>""
 
-🛑 **CVE:** CVE-2025-1223, CVE-2025-1222
+🛑 **CVE:** CVE-2025-1222, CVE-2025-1223
 📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04777 rev.1 - HPE Telco Service Orchestrator, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04777en_us&amp;docLocale=en_US</link><description>""HPESBNW04777 rev.1 - HPE Telco Service Orchestrator, Multiple Vulnerabilities""
 
 🛑 **CVE:** 
@@ -200,12 +200,12 @@
 📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04770 rev.2 - HPE Telco Service Orchestrator, Remote Unauthorized Data Injection Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04770en_us&amp;docLocale=en_US</link><description>""HPESBNW04770 rev.2 - HPE Telco Service Orchestrator, Remote Unauthorized Data Injection Vulnerabilities""
 
 🛑 **CVE:** 
+📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0111 PAN-OS: Authenticated File Read Vulnerability in the Management Web Interface (Severity: HIGH)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0111</link><description>""""
+
+🛑 **CVE:** CVE-2025-0111
 📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0109 PAN-OS: Unauthenticated File Deletion Vulnerability on the Management Web Interface (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0109</link><description>""""
 
 🛑 **CVE:** CVE-2025-0109
-📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0108 PAN-OS: Authentication Bypass in the Management Web Interface (Severity: HIGH)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0108</link><description>""""
-
-🛑 **CVE:** CVE-2025-0108
 📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04806 rev.1 - HPE Telco Service Orchestrator, Remote Unauthorized Access Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04806en_us&amp;docLocale=en_US</link><description>""HPESBNW04806 rev.1 - HPE Telco Service Orchestrator, Remote Unauthorized Access Vulnerabilities""
 
 🛑 **CVE:** 
@@ -215,9 +215,9 @@
 📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"BIND 9 Security Vulnerability Matrix"</title><link>https://kb.isc.org/docs/aa-00913</link><description>""The BIND 9 Security Vulnerability Matrix is a tool to help DNS operators understand the current security risk for a given version of BIND. It has two parts: The first part is a table listing all of the vulnerabilities covered by this page. The first column is a reference number for use in the tables in the second part. The second column is the CVE (Common Vulnerabilities and Exposure) number for the vulnerability, linked to its page on cve.mitre.org. The third column is a short description of t ...""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0111 PAN-OS: Authenticated File Read Vulnerability in the Management Web Interface (Severity: HIGH)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0111</link><description>""""
+📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2025-0108 PAN-OS: Authentication Bypass in the Management Web Interface (Severity: HIGH)"</title><link>https://security.paloaltonetworks.com/CVE-2025-0108</link><description>""""
 
-🛑 **CVE:** CVE-2025-0111
+🛑 **CVE:** CVE-2025-0108
 📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBGN04217 rev.2 - HPE Telco Service Orchestrator SO, Apache Log4j 2 Remote Arbitrary Code Execution and Remote Denial of Service"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04217en_us&amp;docLocale=en_US</link><description>""HPESBGN04217 rev.2 - HPE Telco Service Orchestrator SO, Apache Log4j 2 Remote Arbitrary Code Execution and Remote Denial of Service""
 
 🛑 **CVE:** 
