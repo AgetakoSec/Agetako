@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 24 Feb 2025 10:50:09 +0000</lastBuildDate><item><title>"FortiOS / FortiProxy / FortiPAM / FortiSwitchManager - Format string vulnerability in CLI commands"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-23-261</link><description>""A use of externally-controlled format string vulnerability [CWE-134] in FortiOS, FortiProxy, FortiPAM &amp; FortiSwitchManager CLI may allow a privileged attacker to execute arbitrary code or commands via specially crafted requests. Revised on 2025-02-12 00:00:00""
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 24 Feb 2025 11:19:19 +0000</lastBuildDate><item><title>"FortiOS / FortiProxy / FortiPAM / FortiSwitchManager - Format string vulnerability in CLI commands"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-23-261</link><description>""A use of externally-controlled format string vulnerability [CWE-134] in FortiOS, FortiProxy, FortiPAM &amp; FortiSwitchManager CLI may allow a privileged attacker to execute arbitrary code or commands via specially crafted requests. Revised on 2025-02-12 00:00:00""
 
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Disclosure of Logs of Devices not belonging to the Current ADOM from Log View"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-24-422</link><description>""An Exposure of Sensitive Information to an Unauthorized Actor [CWE-200] in the Log View component of FortiAnalyzer may allow a local authenticated user with admin privileges to view logs of devices not belonging to the current ADOM Revised on 2025-02-11 00:00:00""
@@ -70,7 +70,7 @@
 🛑 **CVE:** CVE-2024-52606
 📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"SolarWinds Trust Center Security Advisories | CVE-2024-52612"</title><link>https://www.solarwinds.com/trust-center/security-advisories/cve-2024-52612</link><description>""02/11/2025 SolarWinds Platform is vulnerable to a reflected cross-site scripting vulnerability. This was caused by an insufficient sanitation of input parameters. Learn more &gt; https://www.solarwinds.com/trust-center/security-advisories/cve-2024-52612""
 
-🛑 **CVE:** cve-2024-52612, CVE-2024-52612
+🛑 **CVE:** CVE-2024-52612, cve-2024-52612
 📊 **CVSS Score:** </description><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"SolarWinds Trust Center Security Advisories | CVE-2024-28989"</title><link>https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28989</link><description>""SolarWinds Web Help Desk was found to have a hardcoded cryptographic key that could allow the disclosure of sensitive information from the software.""
 
 🛑 **CVE:** CVE-2024-28989
@@ -128,7 +128,13 @@
 📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBHF04795 rev.1 - Certain HPE SimpliVity AMD Servers Using Certain AMD EPYC Processors, AMD-SB-7027: AMD System Management Mode (SMM) Vulnerabilities, Local Arbitrary Code Execution Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf04795en_us&amp;docLocale=en_US</link><description>""HPESBHF04795 rev.1 - Certain HPE SimpliVity AMD Servers Using Certain AMD EPYC Processors, AMD-SB-7027: AMD System Management Mode (SMM) Vulnerabilities, Local Arbitrary Code Execution Vulnerabilities""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBGN04808 rev.1 - HPE Intel E810 Series Ethernet Controllers, INTEL-SA-01236, Intel® 800 Series Ethernet Driver Software, Information Disclosure Vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04808en_us&amp;docLocale=en_US</link><description>""HPESBGN04808 rev.1 - HPE Intel E810 Series Ethernet Controllers, INTEL-SA-01236, Intel® 800 Series Ethernet Driver Software, Information Disclosure Vulnerability""
+📊 **CVSS Score:** </description><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE -2025-0997Use after free in Navigation"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0997</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.""
+
+🛑 **CVE:** 
+📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"VMSA-2025-0003: VMware Aria Operations for Logs and VMware Aria Operations updates address multiple vulnerabilities (CVE-2025-22218, CVE-2025-22219, CVE-2025-22220, CVE-2025-22221 and CVE-2025-22222)"</title><link>https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/security-advisories/0/25329</link><description>""
+
+🛑 **CVE:** CVE-2025-22218, CVE-2025-22220, CVE-2025-22221, CVE-2025-22222, CVE-2025-22219
+📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE -2025-0995Use after free in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0995</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.""
 
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE -2025-0996Inappropriate implementation in Browser UI"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0996</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.""
@@ -137,40 +143,43 @@
 📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE -2025-0998Out of bounds memory access in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0998</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"VMSA-2025-0003: VMware Aria Operations for Logs and VMware Aria Operations updates address multiple vulnerabilities (CVE-2025-22218, CVE-2025-22219, CVE-2025-22220, CVE-2025-22221 and CVE-2025-22222)"</title><link>https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/security-advisories/0/25329</link><description>""
-
-🛑 **CVE:** CVE-2025-22219, CVE-2025-22218, CVE-2025-22221, CVE-2025-22222, CVE-2025-22220
-📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE -2025-0995Use after free in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0995</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.""
-
-🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#february-14-2025</link><description>"Microsoft has released the latest Microsoft Edge Stable Channel (Version 133.0.3065.69), which incorporates the latest Security Updates of the Chromium project. For more information, see the Security Update Guide."
 
 🛑 **CVE:** "CVE-2025-21401"
-📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE -2025-0997Use after free in Navigation"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0997</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2024 ) for more information.""
+📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBGN04808 rev.1 - HPE Intel E810 Series Ethernet Controllers, INTEL-SA-01236, Intel® 800 Series Ethernet Driver Software, Information Disclosure Vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04808en_us&amp;docLocale=en_US</link><description>""HPESBGN04808 rev.1 - HPE Intel E810 Series Ethernet Controllers, INTEL-SA-01236, Intel® 800 Series Ethernet Driver Software, Information Disclosure Vulnerability""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"MFSA 2025-12 Security Vulnerabilities fixed in Firefox 135.0.1"</title><link>https://www.mozilla.org/en-US/security/advisories/mfsa2025-12/</link><description>""
+📊 **CVSS Score:** </description><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2025/02/stable-channel-update-for-desktop_18.html</link><description>""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2025/02/stable-channel-update-for-desktop_18.html</link><description>""
+📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"MFSA 2025-12 Security Vulnerabilities fixed in Firefox 135.0.1"</title><link>https://www.mozilla.org/en-US/security/advisories/mfsa2025-12/</link><description>""
+
+🛑 **CVE:** 
+📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Security Bulletin - February 18 2025"</title><link>https://confluence.atlassian.com/security/security-bulletin-february-18-2025-1510670627.html</link><description>""
 
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04777 rev.1 - HPE Telco Service Orchestrator, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04777en_us&amp;docLocale=en_US</link><description>""HPESBNW04777 rev.1 - HPE Telco Service Orchestrator, Multiple Vulnerabilities""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Citrix Secure Access Client for Mac Security Bulletin for CVE-2025-1222 and CVE-2025-1223"</title><link>https://support.citrix.com/s/article/CTX692679-citrix-secure-access-client-for-mac-security-bulletin-for-cve20251222-and-cve20251223</link><description>""
-
-🛑 **CVE:** CVE-2025-1223, CVE-2025-1222
 📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"NetScaler Console and NetScaler Agent Security Bulletin for CVE-2024-12284"</title><link>https://support.citrix.com/s/article/CTX692579-netscaler-console-and-netscaler-agent-security-bulletin-for-cve202412284</link><description>""
 
 🛑 **CVE:** CVE-2024-12284
-📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Security Bulletin - February 18 2025"</title><link>https://confluence.atlassian.com/security/security-bulletin-february-18-2025-1510670627.html</link><description>""
+📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Citrix Secure Access Client for Mac Security Bulletin for CVE-2025-1222 and CVE-2025-1223"</title><link>https://support.citrix.com/s/article/CTX692679-citrix-secure-access-client-for-mac-security-bulletin-for-cve20251222-and-cve20251223</link><description>""
+
+🛑 **CVE:** CVE-2025-1222, CVE-2025-1223
+📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBGN04217 rev.2 - HPE Telco Service Orchestrator SO, Apache Log4j 2 Remote Arbitrary Code Execution and Remote Denial of Service"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04217en_us&amp;docLocale=en_US</link><description>""HPESBGN04217 rev.2 - HPE Telco Service Orchestrator SO, Apache Log4j 2 Remote Arbitrary Code Execution and Remote Denial of Service""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"ShareFile experiencing issues with file downloads"</title><link>https://status.sharefile.com/incidents/0t3sp8hggscj</link><description>""Feb 19 , 14:03 EST Resolved - This incident has been resolved. Feb 19 , 14:03 EST Update - System is fully operational. Feb 19 , 13:58 EST Monitoring - A fix has been applied and the system is recovering. We'll continue to monitor to ensure complete recovery. Feb 19 , 13:48 EST Update - We have identified the cause and are continuing to investigate a fix. Feb 19 , 13:12 EST Update - We have identified the cause and are investigating a fix. Feb 19 , 12:46 EST Update - We are continuing to investigate this issue. Feb 19 , 12:26 EST Investigating - We are currently investigating this issue.""
+📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Cisco Video Phone 8875 and Desk Phone 9800 Series Information Disclosure Vulnerability"</title><link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phone-info-disc-YyxsWStK</link><description>""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBGN04217 rev.2 - HPE Telco Service Orchestrator SO, Apache Log4j 2 Remote Arbitrary Code Execution and Remote Denial of Service"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04217en_us&amp;docLocale=en_US</link><description>""HPESBGN04217 rev.2 - HPE Telco Service Orchestrator SO, Apache Log4j 2 Remote Arbitrary Code Execution and Remote Denial of Service""
+📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Cisco Secure Email Gateway Email Filter Bypass Vulnerability"</title><link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-mailpol-bypass-5nVcJZMw</link><description>""
+
+🛑 **CVE:** 
+📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Cisco BroadWorks Application Delivery Platform Cross-Site Scripting Vulnerability"</title><link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-broadworks-xss-GDPgJ58P</link><description>""
+
+🛑 **CVE:** 
+📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"ShareFile experiencing issues with file downloads"</title><link>https://status.sharefile.com/incidents/0t3sp8hggscj</link><description>""Feb 19 , 14:03 EST Resolved - This incident has been resolved. Feb 19 , 14:03 EST Update - System is fully operational. Feb 19 , 13:58 EST Monitoring - A fix has been applied and the system is recovering. We'll continue to monitor to ensure complete recovery. Feb 19 , 13:48 EST Update - We have identified the cause and are continuing to investigate a fix. Feb 19 , 13:12 EST Update - We have identified the cause and are investigating a fix. Feb 19 , 12:46 EST Update - We are continuing to investigate this issue. Feb 19 , 12:26 EST Investigating - We are currently investigating this issue.""
 
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04770 rev.2 - HPE Telco Service Orchestrator, Remote Unauthorized Data Injection Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04770en_us&amp;docLocale=en_US</link><description>""HPESBNW04770 rev.2 - HPE Telco Service Orchestrator, Remote Unauthorized Data Injection Vulnerabilities""
@@ -182,16 +191,16 @@
 📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04806 rev.1 - HPE Telco Service Orchestrator, Remote Unauthorized Access Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04806en_us&amp;docLocale=en_US</link><description>""HPESBNW04806 rev.1 - HPE Telco Service Orchestrator, Remote Unauthorized Access Vulnerabilities""
 
 🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04768 rev.2 - HPE Telco Service Orchestrator, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04768en_us&amp;docLocale=en_US</link><description>""HPESBNW04768 rev.2 - HPE Telco Service Orchestrator, Multiple Vulnerabilities""
-
-🛑 **CVE:** 
-📊 **CVSS Score:** </description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#february-20-2025</link><description>"Microsoft has released the latest Microsoft Edge Extended Stable Channel (Version132.0.2957.171), which incorporates the latest Security Updates of the Chromium project. For more information, see the Security Update Guide."
+📊 **CVSS Score:** </description><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#february-20-2025</link><description>"Microsoft has released the latest Microsoft Edge Extended Stable Channel (Version132.0.2957.171), which incorporates the latest Security Updates of the Chromium project. For more information, see the Security Update Guide."
 
 🛑 **CVE:** "CVE-2025-21279, CVE-2025-21283, CVE-2025-21408, CVE-2025-21342"
+📊 **CVSS Score:** </description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBHF04790 rev.2 - Certain HPE ProLiant DL/ML/XL, Alletra, Edgeline and Synergy Servers Using Certain Intel Processor BIOS, INTEL-SA-01139, 2025.1 IPU - UEFI Firmware Advisory, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf04790en_us&amp;docLocale=en_US</link><description>""HPESBHF04790 rev.2 - Certain HPE ProLiant DL/ML/XL, Alletra, Edgeline and Synergy Servers Using Certain Intel Processor BIOS, INTEL-SA-01139, 2025.1 IPU - UEFI Firmware Advisory, Multiple Vulnerabilities""
+
+🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"CVE-2024-5921 GlobalProtect App: Insufficient Certificate Validation Leads to Privilege Escalation (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2024-5921</link><description>""""
 
 🛑 **CVE:** CVE-2024-5921
-📊 **CVSS Score:** </description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBHF04790 rev.2 - Certain HPE ProLiant DL/ML/XL, Alletra, Edgeline and Synergy Servers Using Certain Intel Processor BIOS, INTEL-SA-01139, 2025.1 IPU - UEFI Firmware Advisory, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf04790en_us&amp;docLocale=en_US</link><description>""HPESBHF04790 rev.2 - Certain HPE ProLiant DL/ML/XL, Alletra, Edgeline and Synergy Servers Using Certain Intel Processor BIOS, INTEL-SA-01139, 2025.1 IPU - UEFI Firmware Advisory, Multiple Vulnerabilities""
+📊 **CVSS Score:** </description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"HPESBNW04768 rev.2 - HPE Telco Service Orchestrator, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04768en_us&amp;docLocale=en_US</link><description>""HPESBNW04768 rev.2 - HPE Telco Service Orchestrator, Multiple Vulnerabilities""
 
 🛑 **CVE:** 
 📊 **CVSS Score:** </description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#february-21-2025</link><description>"Microsoft has released the latest Microsoft Edge Stable Channel (Version133.0.3065.82), which incorporates the latest Security Updates of the Chromium project. For more information, see the Security Update Guide."
