@@ -1,4 +1,5 @@
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from config.site_config import (
     BASE_PATH,
@@ -57,14 +58,20 @@ def main():
 
     all_data = {}
 
-    for site_name, config in SITE_CONFIG.items():
-        print(f"----------------------------------")
-        logger.info(f"Processing site: {site_name}")
-        print(f"----------------------------------")
-        site_data = fetch_site_data(site_name, config)
-        if site_data:
-            save_to_csv(site_name, site_data)
-        all_data[site_name] = site_data
+    with ThreadPoolExecutor() as executor:
+        future_to_site = {}
+        for site_name, config in SITE_CONFIG.items():
+            print(f"----------------------------------")
+            logger.info(f"Processing site: {site_name}")
+            print(f"----------------------------------")
+            future_to_site[executor.submit(fetch_site_data, site_name, config)] = site_name
+
+        for future in as_completed(future_to_site):
+            site_name = future_to_site[future]
+            site_data = future.result()
+            if site_data:
+                save_to_csv(site_name, site_data)
+            all_data[site_name] = site_data
 
     logger.info("Saving all collected data to the latest CSV...")
     print(f"----------------------------------")
