@@ -9,7 +9,9 @@ from utils.date_utils import normalize_date
 
 def fetch_data_with_beautifulsoup(config):
     try:
-        response = requests.get(config["url"])
+        # ネットワーク障害などで無限に待機し続けることを防ぐため、
+        # requests.get にタイムアウトを設定する。
+        response = requests.get(config["url"], timeout=30)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
