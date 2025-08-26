@@ -1,9 +1,9 @@
 name: Update RSS Feed
 
 on:
-  #   schedule:
-  # 平日 09:00 ～ 17:00 は 20分に1回
-  # - cron: "*/20 9-17 * * 1-5"
+  schedule:
+    # 平日 09:00 ～ 18:00 は 20分に1回
+    - cron: "*/20 9-18 * * 1-5"
 
   workflow_dispatch: # 手動実行も可能
 
