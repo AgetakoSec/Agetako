@@ -11,15 +11,24 @@ from utils.date_utils import normalize_date
 
 def fetch_data_with_rss(config):
     try:
-        # feedparserでRSSフィードを解析
-        feed = feedparser.parse(config["url"])
+        # まずは requests を利用して RSS フィードを取得する。
+        # 取得に失敗した場合は cloudscraper を利用する。
+        try:
+            response = requests.get(config["url"], headers=HEADERS, timeout=30)
+            response.raise_for_status()
+        except requests.exceptions.RequestException:
+            print("Debug: requests failed. Trying cloudscraper...")
+            scraper = cloudscraper.create_scraper()
+            response = scraper.get(config["url"], headers=HEADERS, timeout=30)
+            response.raise_for_status()
+
+        # feedparser で RSS を解析
+        feed = feedparser.parse(response.content)
         data = []
         if feed.entries:
             for entry in feed.entries:
                 date = entry.get("published", entry.get("pubDate", "Unknown"))
-                # print(date)
                 normalized_date = normalize_date(date, config.get("date_formats"))
-                # print(normalized_date)
 
                 cve = ""
                 cvss = ""
@@ -45,18 +54,7 @@ def fetch_data_with_rss(config):
                 )
             return data
 
-        # feedparserでデータが取得できない場合の代替処理
-        print("Debug: feedparser returned no data. Trying requests...")
-
-        try:
-            response = requests.get(config["url"], headers=HEADERS)
-            response.raise_for_status()
-        except requests.exceptions.RequestException:
-            print("Debug: requests failed. Trying cloudscraper...")
-            scraper = cloudscraper.create_scraper()
-            response = scraper.get(config["url"], headers=HEADERS)
-            response.raise_for_status()
-
+        # feedparser でデータが取得できない場合は BeautifulSoup で解析
         soup = BeautifulSoup(response.content, "xml")  # XMLとしてパース
         items = soup.find_all("item")
         for item in items:
@@ -75,11 +73,9 @@ def fetch_data_with_rss(config):
             else:
                 description = "Unknown"
 
-            # CVEとCVSSのデフォルト値
             cve = ""
             cvss = ""
 
-            # データ追加
             data.append(
                 {
                     "title": title,
