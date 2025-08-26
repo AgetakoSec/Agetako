@@ -2,6 +2,9 @@ import csv
 import os
 import re
 from datetime import datetime
+from functools import lru_cache
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 import requests
 from bs4 import BeautifulSoup
 from cvss import CVSS3  # CVSS v3 のスコア計算
@@ -23,6 +26,7 @@ def extract_cvss(text):
     return ", ".join(set(match[0] for match in cvss_pattern.findall(text)))
 
 
+@lru_cache(maxsize=128)
 def fetch_cvss_from_nvd(cve):
     """NVDのCVEページからCVSSスコアを取得"""
     if not cve or cve == '""':
@@ -47,6 +51,7 @@ def fetch_cvss_from_nvd(cve):
     return ""
 
 
+@lru_cache(maxsize=128)
 def fetch_cve_cvss_from_link(link):
     """link先からCVE, CVSS情報を取得し、CVSSスコアを計算する"""
     if not link:
@@ -100,56 +105,62 @@ def filter_articles():
 
     with open(LATEST_FILE, mode="r", encoding="utf-8") as file:
         reader = csv.DictReader(file)
-        for row in reader:
-            site_name = row.get("SiteName")
-            title = row.get("Title", "")
-            description = row.get("Description", "")
-            link = row.get("link", "")
-            cve = row.get("CVE", "").strip()
-            cvss = row.get("CVSS", "").strip()
+        futures = {}
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            for row in reader:
+                site_name = row.get("SiteName")
+                title = row.get("Title", "")
+                description = row.get("Description", "")
+                link = row.get("link", "")
+                cve = row.get("CVE", "").strip()
+                cvss = row.get("CVSS", "").strip()
 
-            if site_name and site_name in SITE_CONFIG:
-                title_keywords = SITE_CONFIG[site_name].get("filter_title_keywords", [])
-                description_keywords = SITE_CONFIG[site_name].get(
-                    "filter_description_keywords", []
-                )
-                remove_words = SITE_CONFIG[site_name].get("remove_words", [])
-
-                # 除外キーワードがタイトルまたは説明に含まれている場合はスキップ
-                if any(word.lower() in title.lower() for word in remove_words) or any(
-                    word.lower() in description.lower() for word in remove_words
-                ):
-                    continue
-
-                if (
-                    not title_keywords
-                    or any(
-                        keyword.lower() in title.lower() for keyword in title_keywords
+                if site_name and site_name in SITE_CONFIG:
+                    title_keywords = SITE_CONFIG[site_name].get("filter_title_keywords", [])
+                    description_keywords = SITE_CONFIG[site_name].get(
+                        "filter_description_keywords", []
                     )
-                ) and (
-                    not description_keywords
-                    or any(
-                        keyword.lower() in description.lower()
-                        for keyword in description_keywords
-                    )
-                ):
-                    # CVE, CVSSが '""'（空の文字列）なら更新
-                    if cve in ('', '""'):
-                        cve = extract_cve(title + " " + description)
-                    if cvss in ('', '""'):
-                        cvss = extract_cvss(title + " " + description)
+                    remove_words = SITE_CONFIG[site_name].get("remove_words", [])
 
-                    # それでもCVE, CVSSが '""' ならリンク先から取得
-                    # if cve in ('', '""') or cvss in ('', '""'):
-                    #     fetched_cve, fetched_cvss_vector, fetched_cvss = fetch_cve_cvss_from_link(link)
-                    #     cve = cve if cve not in ('', '""') else fetched_cve
-                    #     cvss = cvss if cvss not in ('', '""') else fetched_cvss
+                    # 除外キーワードがタイトルまたは説明に含まれている場合はスキップ
+                    if any(word.lower() in title.lower() for word in remove_words) or any(
+                        word.lower() in description.lower() for word in remove_words
+                    ):
+                        continue
 
-                    row["CVE"] = cve
-                    row["CVSS"] = cvss
+                    if (
+                        not title_keywords
+                        or any(
+                            keyword.lower() in title.lower() for keyword in title_keywords
+                        )
+                    ) and (
+                        not description_keywords
+                        or any(
+                            keyword.lower() in description.lower()
+                            for keyword in description_keywords
+                        )
+                    ):
+                        # CVE, CVSSが '""'（空の文字列）なら更新
+                        if cve in ('', '""'):
+                            cve = extract_cve(title + " " + description)
+                        if cvss in ('', '""'):
+                            cvss = extract_cvss(title + " " + description)
 
-                    # **ここで1回だけ追加**
-                    filtered_data.append(row)
+                        # それでもCVE, CVSSが '""' ならリンク先から取得
+                        if cve in ('', '""') or cvss in ('', '""'):
+                            future = executor.submit(fetch_cve_cvss_from_link, link)
+                            futures[future] = (row, cve, cvss)
+                        else:
+                            row["CVE"] = cve
+                            row["CVSS"] = cvss
+                            filtered_data.append(row)
+
+        for future in as_completed(futures):
+            row, cve, cvss = futures[future]
+            fetched_cve, fetched_cvss_vector, fetched_cvss = future.result()
+            row["CVE"] = cve if cve not in ('', '""') else fetched_cve
+            row["CVSS"] = cvss if cvss not in ('', '""') else fetched_cvss
+            filtered_data.append(row)
 
     with open(FILTERED_FILE, mode="w", newline="", encoding="utf-8") as file:
         # 必須列に "Description", "CVE", "CVSS" を追加
