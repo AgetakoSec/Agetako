@@ -20,7 +20,7 @@ def extract_cve(text):
 def extract_cvss(text):
     """CVSSスコアを抽出する"""
     cvss_pattern = re.compile(r"CVSS[:\s]?([0-9]\.[0-9])", re.IGNORECASE)
-    return ", ".join(set(match[0] for match in cvss_pattern.findall(text)))
+    return ", ".join(set(match.strip() for match in cvss_pattern.findall(text)))
 
 
 def fetch_cvss_from_nvd(cve):
