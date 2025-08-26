@@ -1,4 +1,7 @@
+import os
 import platform
+import shutil
+from zipfile import BadZipFile
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -16,7 +19,18 @@ def setup_webdriver():
     Selenium WebDriverをセットアップする。
     :return: WebDriverインスタンス
     """
-    service = Service(ChromeDriverManager().install())
+    manager = ChromeDriverManager()
+    try:
+        driver_path = manager.install()
+    except (BadZipFile, EOFError, IndexError):
+        cache_dir = manager._cache_manager._root_dir
+        if os.path.exists(cache_dir):
+            shutil.rmtree(cache_dir, ignore_errors=True)
+        driver_path = manager.install()
+    except Exception as e:  # pragma: no cover - unexpected errors
+        raise RuntimeError(f"Failed to install ChromeDriver: {e}") from e
+
+    service = Service(driver_path)
     # Windows: creation_flags を設定
     if platform.system() == "Windows":
         service.creation_flags = 0x08000000  # headless
