@@ -1,5 +1,6 @@
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
 
 from config.site_config import (
     BASE_PATH,
@@ -70,7 +71,24 @@ def main():
             site_name = future_to_site[future]
             site_data = future.result()
             if site_data:
+                local_time = datetime.now().astimezone().strftime(
+                    "%Y-%m-%d %H:%M:%S %Z"
+                )
+                logger.info(
+                    f"{site_name}: Retrieved {len(site_data)} articles. Last update: {local_time}"
+                )
+                for entry in site_data:
+                    title = (
+                        entry.get("title", "")
+                        .replace("\n", " ")
+                        .replace("\r", " ")
+                        .strip()
+                    )
+                    link = entry.get("link", "").strip()
+                    logger.info(f" - {title} ({link})")
                 save_to_csv(site_name, site_data)
+            else:
+                logger.info(f"{site_name}: No new articles found.")
             all_data[site_name] = site_data
 
     logger.info("Saving all collected data to the latest CSV...")
