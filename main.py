@@ -14,7 +14,12 @@ from data_fetchers.fetch_rss import fetch_data_with_rss
 from data_fetchers.fetch_selenium import fetch_data_with_selenium
 from processors.data_processor import filter_articles
 from processors.xlsx_exporter import save_filtered_articles_to_xlsx
-from utils.file_utils import save_latest_site_entries, save_to_csv, save_to_latest_csv
+from utils.file_utils import (
+    clean_text,
+    save_latest_site_entries,
+    save_to_csv,
+    save_to_latest_csv,
+)
 from utils.logger import setup_logger
 from generate_rss import generate_rss
 from generate_html import generate_html
@@ -40,17 +45,18 @@ def initialize_files():
 def fetch_site_data(site_name, config):
     try:
         if config["method"] == "rss":
-            return fetch_data_with_rss(config)
+            return fetch_data_with_rss(config), None
         elif config["method"] == "beautifulsoup":
-            return fetch_data_with_beautifulsoup(config)
+            return fetch_data_with_beautifulsoup(config), None
         elif config["method"] == "selenium":
-            return fetch_data_with_selenium(config)
+            return fetch_data_with_selenium(config), None
         else:
-            logger.error(f"Unknown method for site {site_name}")
-            return []
+            error = f"Unknown method for site {site_name}"
+            logger.error(error)
+            return [], error
     except Exception as e:
         logger.exception(f"Error fetching data for {site_name}: {e}")
-        return []
+        return [], str(e)
 
 
 def main():
@@ -59,6 +65,7 @@ def main():
     initialize_files()
 
     all_data = {}
+    fetch_errors = {}
 
     with ThreadPoolExecutor() as executor:
         future_to_site = {}
@@ -70,7 +77,7 @@ def main():
 
         for future in as_completed(future_to_site):
             site_name = future_to_site[future]
-            site_data = future.result()
+            site_data, error = future.result()
             if site_data:
                 local_time = datetime.now().astimezone().strftime(
                     "%Y-%m-%d %H:%M:%S %Z"
@@ -79,23 +86,22 @@ def main():
                     f"{site_name}: Retrieved {len(site_data)} articles. Last update: {local_time}"
                 )
                 for entry in site_data:
-                    title = (
-                        entry.get("title", "")
-                        .replace("\n", " ")
-                        .replace("\r", " ")
-                        .strip()
-                    )
+                    title = clean_text(entry.get("title", ""))
                     link = entry.get("link", "").strip()
                     logger.info(f" - {title} ({link})")
                 save_to_csv(site_name, site_data)
             else:
-                logger.info(f"{site_name}: No new articles found.")
+                if error:
+                    logger.error(f"{site_name}: {error}")
+                else:
+                    logger.info(f"{site_name}: No new articles found.")
             all_data[site_name] = site_data
+            fetch_errors[site_name] = error
 
     logger.info("Saving all collected data to the latest CSV...")
     print(f"----------------------------------")
     # サイトの取得状況の確認
-    save_latest_site_entries(all_data)
+    save_latest_site_entries(all_data, fetch_errors)
 
     save_to_latest_csv(all_data)
 
