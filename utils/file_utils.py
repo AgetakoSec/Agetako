@@ -7,6 +7,16 @@ import pandas as pd
 from config.site_config import BASE_PATH, LATEST_ENTRIES_FILE, LATEST_FILE
 
 
+def clean_text(text: str) -> str:
+    """共通のテキスト整形処理"""
+    return (
+        text.replace("\n", " ")
+        .replace("\r", " ")
+        .replace("  ", "")
+        .strip()
+    )
+
+
 def save_to_csv(site_name, data):
     if not data:
         print(
@@ -62,35 +72,10 @@ def save_to_csv(site_name, data):
             writer = csv.DictWriter(file, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
             writer.writeheader()
             for entry in sorted_entries:
-                # 改行を削除して1行にまとめる
-                title = (
-                    entry.get("title", "")
-                    .replace("\n", " ")
-                    .replace("\r", " ")
-                    .replace("  ", "")
-                    .strip()
-                )
-                description = (
-                    entry.get("description", "")
-                    .replace("\n", " ")
-                    .replace("\r", " ")
-                    .replace("  ", "")
-                    .strip()
-                )
-                cve = (
-                    entry.get("cve", "")
-                    .replace("\n", " ")
-                    .replace("\r", " ")
-                    .replace("  ", "")
-                    .strip()
-                )
-                cvss = (
-                    entry.get("cvss", "")
-                    .replace("\n", " ")
-                    .replace("\r", " ")
-                    .replace("  ", "")
-                    .strip()
-                )
+                title = clean_text(entry.get("title", ""))
+                description = clean_text(entry.get("description", ""))
+                cve = clean_text(entry.get("cve", ""))
+                cvss = clean_text(entry.get("cvss", ""))
 
                 row = {
                     "date": entry.get("date", ""),
@@ -125,34 +110,10 @@ def save_to_latest_csv(data):
                 try:
                     entry_date = datetime.strptime(date, "%Y/%m/%d")
                     if entry_date >= cutoff_date:
-                        title = (
-                            entry.get("title", "")
-                            .replace("\n", " ")
-                            .replace("\r", " ")
-                            .replace("  ", "")
-                            .strip()
-                        )
-                        description = (
-                            entry.get("description", "")
-                            .replace("\n", " ")
-                            .replace("\r", " ")
-                            .replace("  ", "")
-                            .strip()
-                        )
-                        cve = (
-                            entry.get("cve", "")
-                            .replace("\n", " ")
-                            .replace("\r", " ")
-                            .replace("  ", "")
-                            .strip()
-                        )
-                        cvss = (
-                            entry.get("cvss", "")
-                            .replace("\n", " ")
-                            .replace("\r", " ")
-                            .replace("  ", "")
-                            .strip()
-                        )
+                        title = clean_text(entry.get("title", ""))
+                        description = clean_text(entry.get("description", ""))
+                        cve = clean_text(entry.get("cve", ""))
+                        cvss = clean_text(entry.get("cvss", ""))
 
                         all_entries.append(
                             {
@@ -199,16 +160,29 @@ def save_to_latest_csv(data):
     print(f"Updated {latest_file} with {len(df)} entries (within 14 days).")
 
 
-def save_latest_site_entries(data):
+def save_latest_site_entries(data, errors=None):
     """
     各サイトごとの最新記事情報をCSVに保存する。
-    CSVフォーマット: SiteName, date, title, link
+    CSVフォーマット: SiteName, date, title, link, error
     """
     latest_entries = []
+    errors = errors or {}
 
     for site_name, entries in data.items():
         if not entries:
-            print(f"No data found for site: {site_name}")
+            error_msg = errors.get(site_name, "")
+            if error_msg:
+                latest_entries.append(
+                    {
+                        "SiteName": site_name,
+                        "date": "",
+                        "title": "",
+                        "link": "",
+                        "error": error_msg,
+                    }
+                )
+            else:
+                print(f"No data found for site: {site_name}")
             continue
 
         # 最新記事を取得 (日付が新しいもの)
@@ -220,15 +194,25 @@ def save_latest_site_entries(data):
                 ),
             )
         except ValueError:
-            print(f"Skipping site {site_name} due to invalid date format.")
+            error_msg = "Invalid date format"
+            latest_entries.append(
+                {
+                    "SiteName": site_name,
+                    "date": "",
+                    "title": "",
+                    "link": "",
+                    "error": error_msg,
+                }
+            )
             continue
 
         latest_entries.append(
             {
                 "SiteName": site_name,
                 "date": latest_entry.get("date", ""),
-                "title": latest_entry.get("title", "").replace("\n", " ").strip(),
+                "title": clean_text(latest_entry.get("title", "")),
                 "link": latest_entry.get("link", "").strip(),
+                "error": errors.get(site_name, ""),
             }
         )
 
