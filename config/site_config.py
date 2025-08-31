@@ -301,10 +301,10 @@ SITE_CONFIG = {
         "method": "beautifulsoup",
         "url": "https://www.barracuda.com/company/legal/security-advisory",
         "selectors": {
-            "rows": "div.cmp-text.cmp-text--v1",
-            "title": "span.cmp-text__rte__text-subtitle1 a",
-            "link": "span.cmp-text__rte__text-subtitle1 a",
-            "date": "span.cmp-text__rte__text-body1",
+            "rows": "tr.cmp-table-row:not(.cmp-table__container__table__row--header)",
+            "title": "td:nth-of-type(1) a",
+            "link": "td:nth-of-type(1) a",
+            "date": "td:nth-of-type(2) div",
         },
         "date_formats": ["%B %d, %Y"],
         "filter_description_keywords": [],
@@ -658,7 +658,7 @@ EXCEL_FILE = r"FilterVulnerability.xlsx"
 LOG_FILE = r"vulnerability_logger.log"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+    "User-Agent": "Mozilla/5.0"
 }
 
 # タイムゾーン情報
