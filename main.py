@@ -17,6 +17,7 @@ from processors.xlsx_exporter import save_filtered_articles_to_xlsx
 from utils.file_utils import save_latest_site_entries, save_to_csv, save_to_latest_csv
 from utils.logger import setup_logger
 from generate_rss import generate_rss
+from generate_html import generate_html
 
 logger = setup_logger(LOG_FILE)
 
@@ -113,6 +114,7 @@ def main():
             print(f"----------------------------------")
             save_filtered_articles_to_xlsx(filtered_articles)
             generate_rss()
+            generate_html()
         else:
             logger.info("No filtered articles found for saving to Excel.")
     except FileNotFoundError:
