@@ -6,6 +6,7 @@ feedparser
 beautifulsoup4
 requests
 cloudscraper
+pytz
 
 # Selenium関連
 selenium
