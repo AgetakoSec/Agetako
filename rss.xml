@@ -1,365 +1,368 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 23 Mar 2026 10:02:13 +0000</lastBuildDate><item><title>"Chromium: CVE-2026-3937 Incorrect security UI in Downloads"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3937</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3937
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Privilege escalation using undocumented CLI command"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-081</link><description>""CVSSv3 Score: 6.4 An Inclusion of Undocumented Features [CWE-1242] in FortiManager and FortiAnalyzer CLI may allow a remote authenticated read-only admin with CLI access to escalate their privilege via use of a hidden command. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-48418
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBHF05024 rev.1 - HPE Compute Scale-up Server 3200 Platform Using Certain Intel Processors, INTEL-SA-01396, 2026.1 IPU, Intel Processor Firmware Advisory, Local Escalation of Privilege Vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf05024en_us&amp;docLocale=en_US</link><description>""HPESBHF05024 rev.1 - HPE Compute Scale-up Server 3200 Platform Using Certain Intel Processors, INTEL-SA-01396, 2026.1 IPU, Intel Processor Firmware Advisory, Local Escalation of Privilege Vulnerability""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Clients for Windows - Improper Privilege Management"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26004/</link><description>""
-
-**CVE:** CVE-2026-30902
-**CVSS Score:** 7.8</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#march-20-2026</link><description>"Microsoft released the latest Microsoft Edge Stable Channel (Version 146.0.3856.72) which incorporates the latest Security Updates of the Chromium project. For more information, see the Security Update Guide."
-
-**CVE:** CVE-2023-38158, CVE-2024-43577, CVE-2022-35796, CVE-2024-29986, CVE-2022-21930, CVE-2022-33680, CVE-2022-0609, CVE-2026-21223, CVE-2025-10585, CVE-2024-43595, CVE-2021-21206, CVE-2024-38082, CVE-2025-21279, CVE-2022-2856, CVE-2023-36888, CVE-2021-31937, CVE-2021-36928, CVE-2021-21193, CVE-2022-26908, CVE-2024-38222, CVE-2023-36787, CVE-2024-21423, CVE-2023-5217, CVE-2022-21929, CVE-2025-24201, CVE-2021-42308, CVE-2024-38209, CVE-2023-38187, CVE-2025-26643, CVE-2021-21148, CVE-2022-21970, CVE-2022-4135, CVE-2023-36887, CVE-2021-21224, CVE-2022-24475, CVE-2022-22021, CVE-2024-21337, CVE-2025-6558, CVE-2024-4671, CVE-2024-2883, CVE-2024-38218, CVE-2021-30551, CVE-2023-6345, CVE-2021-38641, CVE-2021-43220, CVE-2023-21796, CVE-2022-26905, CVE-2022-1096, CVE-2022-23261, CVE-2024-30056, CVE-2025-47182, CVE-2022-1364, CVE-2023-35392, CVE-2024-43578, CVE-2021-4102, CVE-2021-33741, CVE-2022-30128, CVE-2020-1341, CVE-2024-43472, CVE-2025-6554, CVE-2023-29350, CVE-2024-43496, CVE-2024-38083, CVE-2024-49041, CVE-2024-7965, CVE-2024-29981, CVE-2021-30563, CVE-2024-21326, CVE-2024-38207, CVE-2024-29049, CVE-2023-38157, CVE-2021-30632, CVE-2024-38103, CVE-2022-4262, CVE-2023-36735, CVE-2022-26900, CVE-2021-34506, CVE-2023-28286, CVE-2023-23374, CVE-2025-47181, CVE-2024-21399, CVE-2026-3910, CVE-2020-16009, CVE-2023-21720, CVE-2024-4947, CVE-2020-6418, CVE-2024-30057, CVE-2024-38219, CVE-2022-26894, CVE-2024-20721, CVE-2022-23258, CVE-2023-33145, CVE-2023-36026, CVE-2023-3079, CVE-2023-44323, CVE-2023-29345, CVE-2025-21408, CVE-2025-47963, CVE-2022-33639, CVE-2025-29795, CVE-2025-21342, CVE-2023-36027, CVE-2022-26909, CVE-2022-41035, CVE-2024-26163, CVE-2023-36559, CVE-2021-37973, CVE-2025-62223, CVE-2026-26133, CVE-2020-1195, CVE-2024-7971, CVE-2023-21794, CVE-2023-29334, CVE-2021-38000, CVE-2025-13223, CVE-2024-43489, CVE-2022-29144, CVE-2021-21166, CVE-2024-26192, CVE-2023-28284, CVE-2022-29147, CVE-2025-2783, CVE-2021-38642, CVE-2023-38174, CVE-2022-23264, CVE-2026-2441, CVE-2024-39379, CVE-2025-21399, CVE-2024-43587, CVE-2023-33143, CVE-2026-3909, CVE-2023-7024, CVE-2023-36008, CVE-2022-29146, CVE-2021-26439, CVE-2023-2033, CVE-2025-21185, CVE-2024-21387, CVE-2021-36929, CVE-2023-36029, CVE-2021-34475, CVE-2023-21719, CVE-2021-37975, CVE-2023-36014, CVE-2024-26167, CVE-2020-16017, CVE-2020-15999, CVE-2022-23263, CVE-2021-36931, CVE-2026-0102, CVE-2025-29825, CVE-2024-4761, CVE-2023-28261, CVE-2023-36024, CVE-2023-36880, CVE-2024-5274, CVE-2023-21795, CVE-2022-21954, CVE-2025-29834, CVE-2024-43566, CVE-2021-30633, CVE-2024-30055, CVE-2025-5419, CVE-2024-26188, CVE-2022-26895, CVE-2025-21262, CVE-2024-30058, CVE-2021-38003, CVE-2021-36930, CVE-2021-24113, CVE-2022-21931, CVE-2023-36562, CVE-2022-38012, CVE-2024-38210, CVE-2022-33638, CVE-2023-28301, CVE-2024-21388, CVE-2022-23262, CVE-2024-41879, CVE-2023-36878, CVE-2023-24935, CVE-2022-26912, CVE-2023-36034, CVE-2024-21382, CVE-2021-30554, CVE-2021-21220, CVE-2024-43580, CVE-2024-38093, CVE-2024-21385, CVE-2021-31982, CVE-2024-49023, CVE-2020-16013, CVE-2025-21283, CVE-2025-21253, CVE-2023-35618, CVE-2023-0941, CVE-2021-38669, CVE-2024-29991, CVE-2022-44688, CVE-2024-20709, CVE-2022-24523, CVE-2024-43579, CVE-2024-38156, CVE-2022-30192, CVE-2024-20675, CVE-2022-41115, CVE-2025-29796, CVE-2024-49054, CVE-2024-29987, CVE-2023-36883, CVE-2023-21775, CVE-2024-26196, CVE-2024-0519, CVE-2025-21401, CVE-2025-21404, CVE-2023-29354, CVE-2022-33636, CVE-2024-26247, CVE-2026-0385, CVE-2023-36022, CVE-2025-4664, CVE-2024-38221, CVE-2024-38208, CVE-2024-43596, CVE-2024-26246, CVE-2024-29057, CVE-2023-38173, CVE-2023-36727, CVE-2021-43221, CVE-2023-2136, CVE-2021-26436, CVE-2024-21336, CVE-2022-30127, CVE-2025-53791, CVE-2025-47964, CVE-2025-21267, CVE-2024-21383, CVE-2023-4863, CVE-2022-3723, CVE-2022-33649, CVE-2021-37976, CVE-2022-3075, CVE-2025-47967, CVE-2025-60711, CVE-2022-44708, CVE-2025-25000, CVE-2022-26899, CVE-2022-26891, CVE-2022-2294, CVE-2024-49025, CVE-2025-49713, CVE-2023-36741
-**CVSS Score:** </description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3921 Use after free in TextEncoding"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3921</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3921
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3927 Incorrect security UI in PictureInPicture"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3927</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3927
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3537 Object lifecycle issue in PowerVR"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3537</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3537
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4463 Heap buffer overflow in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4463</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4463
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-0231 Cortex XDR Broker VM: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2026-0231</link><description>""""
-
-**CVE:** CVE-2026-0231
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3931 Heap buffer overflow in Skia"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3931</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3931
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Path traversal vulnerability in FortiSOAR Agent Connector Bridge server"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-084</link><description>""CVSSv3 Score: 5.5 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability [CWE-22] in FortiSOAR Agent Connector Bridge may allow an unauthenticated attacker to read files accessible to the fortisoar user on the system where the agent is deployed, via sending a crafted request to the agent port. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-54659
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Vulnerability in QuFTP Service"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-15</link><description>""A cross-site scripting (XSS) vulnerability has been reported to affect QuFTP Service. If a remote attacker gains an administrator ... More""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3941 Insufficient policy enforcement in DevTools"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3941</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3941
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3934 Insufficient policy enforcement in ChromeDriver"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3934</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3934
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4458 Use after free in Extensions"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4458</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4458
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Multiple Vulnerabilities in QuNetSwitch (ADRA NDR)"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-11</link><description>""Multiple vulnerabilities have been reported to affect QuNetSwitch. CVE-2026-22897: Remote attackers can exploit the command injec ... More""
-
-**CVE:** CVE-2026-22897
-**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Lack of TLS Certificate Validation during initial SSO Authentication"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-078</link><description>""CVSSv3 Score: 6.3 An improper certificate validation [CWE-295] vulnerability in the FortiManager GUI may allow a remote unauthenticated attacker to view confidential information via a man in the middle [MiTM] attack. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-68482
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBST05000 rev.1 - HPE B-Series SANnav Management Portal, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst05000en_us&amp;docLocale=en_US</link><description>""HPESBST05000 rev.1 - HPE B-Series SANnav Management Portal, Multiple Vulnerabilities""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stork 2.4 and Kea socket permissions"</title><link>https://kb.isc.org/docs/stork-kea-socket-perms</link><description>""Summary Stork 2.4 with Kea 3.0 may have issues due to default permissions of the Kea control sockets. Fixes are planned for future release(s), but some workarounds are possible immediately. Environment Stork 2.4.0 or later Kea 3.0.0 or later Symptoms The Stork agent (stork-agent) running on a Kea server will fail to connect to the Kea API offered by the Kea daemons. The Stork server web UI will show messages about daemon communication problems, such as: Stork server reports communication pr ...""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"WordPress 6.9.2 Release"</title><link>https://wordpress.org/news/2026/03/wordpress-6-9-2-release/</link><description>""WordPress 6.9.2 is now available This is a security release that features several fixes. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 6.9.2 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic […]""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3930 Unsafe navigation in Navigation"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3930</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3930
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Changes to be aware of when moving from BIND 9.16 to 9.18"</title><link>https://kb.isc.org/docs/changes-to-be-aware-of-when-moving-from-bind-916-to-918</link><description>""Maintaining our process of continuous improvement, there have been some major changes in BIND between the two currently supported ESV versions - 9.16 and 9.18. This article summarises what those changes are so that you can go into this upgrade knowing which features are likely to affect your installation and what parameters you might need to adjust. Working document This article is still under construction. We will add more detail about impacts of the changes listed as we learn about them. Maj ...""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"ISC Packages for BIND 9"</title><link>https://kb.isc.org/docs/isc-packages-for-bind-9</link><description>""ISC offers binary packages for BIND 9. Versions supported Please note that we only provide packages for operating system versions currently supported. When we release a new version of BIND, we evaluate the OSes we are supporting. We add packages for newly released operating system versions as promptly as we are able and remove packages for operating system versions and BIND versions that become end-of-life Why does ISC provide BIND 9 packages? For all open source users We want to ensure BIND 9 ...""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4440 Out of bounds read and write in WebGL"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4440</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4440
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Multiple Vulnerabilities in QuRouter (PWN2OWN 2025)"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-12</link><description>""Multiple vulnerabilities have been reported to affect QHora. CVE-2025-62843: If an attacker gains physical access, they can ... More""
-
-**CVE:** CVE-2025-62843
-**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3924 Use after free in WindowDialog"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3924</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3924
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3926 Out of bounds read in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3926</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3926
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/PAN-SA-2026-0003</link><description>""""
-
-**CVE:** CVE-2026-2314145, CVE-2026-2318, CVE-2026-2319, CVE-2026-2441, CVE-2026-2318145, CVE-2026-2319145, CVE-2026-2321145, CVE-2026-2323145, CVE-2026-2317, CVE-2026-2317145, CVE-2026-2441145, CVE-2026-2323, CVE-2026-2322, CVE-2026-2321, CVE-2026-2314, CVE-2026-2322145
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Format string vulnerability in fazsvcd"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-092</link><description>""CVSSv3 Score: 6.5 A use of externally-controlled format string vulnerability [CWE-134] in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager and FortiManager Cloud fazsvcd daemon may allow a remote privileged attacker with admin profile to execute arbitrary code or commands via specially crafted requests. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-68648
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"iOS 15.8.7 and iPadOS 15.8.7"</title><link>https://support.apple.com/en-us/126632</link><description>""
-
-**CVE:** CVE-2024-23222, CVE-2023-43000, CVE-2023-43010, CVE-2023-41974
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"OS command injection on vmimages update feature"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-096</link><description>""CVSSv3 Score: 6.7 An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiSandbox Cloud WEB UI may allow a privileged attacker with super-admin profile and CLI access to execute unauthorized code or commands via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-25836
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Oracle Security Alert for CVE-2026-21992 - 19 March 2026"</title><link>https://www.oracle.com/security-alerts/alert-cve-2026-21992.html</link><description>""""
-
-**CVE:** CVE-2026-21992
-**CVSS Score:** </description><pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3939 Use after free in WebView"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3939</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3939
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"shell command limitation bypass by SSH local config overriding"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-085</link><description>""CVSSv3 Score: 5.1 An Improper Access Control vulnerability [CWE-284] in FortiSwitchAXFixed may allow an authenticated admin to execute system commands via a specifically crafted SSH config file. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-22628
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3914 Integer overflow in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3914</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3914
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_18.html</link><description>""
-
-**CVE:** CVE-2026-4455, CVE-2026-4450, CVE-2026-4451, CVE-2026-4445, CVE-2026-4449, CVE-2026-4447, CVE-2026-4439, CVE-2026-4441, CVE-2026-4453, CVE-2026-4446, CVE-2026-4454, CVE-2026-4456, CVE-2026-4464, CVE-2026-4448, CVE-2026-4452, CVE-2026-4442, CVE-2026-4444, CVE-2026-4457, CVE-2026-4440, CVE-2026-4461, CVE-2026-4458, CVE-2026-4462, CVE-2026-4463, CVE-2026-4459, CVE-2026-4443, CVE-2026-4460
-**CVSS Score:** </description><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3922 Use after free in MediaStream"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3922</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3922
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133</link><description>""Updated an acknowledgement. This is an informational change only.""
-
-**CVE:** CVE-2026-26133
-**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"OS Command injection in FortiWeb API"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-088</link><description>""CVSSv3 Score: 6.7 An OS Command Injection vulnerability [CWE-78] in FortiWeb API may allow an authenticated attacked to execute arbitrary commands via a specialy crafted HTTP request. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-66178
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Rooms for Windows - Improper Input Validation"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26003/</link><description>""
-
-**CVE:** CVE-2026-30901
-**CVSS Score:** 7.0</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4445 Use after free in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4445</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4445
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stack-based Buffer Overflow in API protection"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-087</link><description>""CVSSv3 Score: 5.9 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiWeb may allow a remote authenticated attacker to execute arbitrary code or commands via crafted HTTP requests. Success of the attack is conditioned to bypassing stack protection and ASLR. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-24640
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3923 Use after free in WebMIDI"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3923</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3923
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Insecure Exposure of Plaintext Passwords in Debug Logs"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-080</link><description>""CVSSv3 Score: 3.8 A Cleartext Storage of Sensitive Information vulnerability [CWE-312] in FortiMail, FortiVoice and FortiRecorder debug logs may allow an authenticated malicious administrator to obtain user's secrets via CLI commands. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-55717
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3910 Inappropriate implementation in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3910</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3910 exists in the wild.""
-
-**CVE:** CVE-2026-3910
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Security Bulletin - March 17 2026"</title><link>https://confluence.atlassian.com/security/security-bulletin-march-17-2026-1721271371.html</link><description>""
-
-**CVE:** CVE-2023-22523, CVE-2019-13990, CVE-2023-22527, CVE-2025-68493, CVE-2023-22522, CVE-2020-28469, CVE-2024-57699, CVE-2022-25883, CVE-2023-46604, CVE-2025-64756, CVE-2026-24842, CVE-2022-23521, CVE-2022-1471, CVE-2022-41903, CVE-2023-22524, CVE-2026-21884, CVE-2026-23745, CVE-2025-64775, CVE-2023-52428, CVE-2026-21570, CVE-2026-25639, CVE-2022-25927, CVE-2023-22518, CVE-2026-22029, CVE-2026-23950
-**CVSS Score:** </description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-0230 Cortex XDR Agent: Local Administrator can disable the agent on macOS (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2026-0230</link><description>""""
-
-**CVE:** CVE-2026-0230
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3940 Insufficient policy enforcement in DevTools"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3940</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3940
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3909 Out of bounds write in Skia"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.""
-
-**CVE:** CVE-2026-3909
-**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBHF05028 rev.1 - Certain HPE ProLiant DL/ML/XD/XL, Alletra, Apollo, Synergy, Microserver and Edgeline Servers Using Certain Intel Processor BIOS, INTEL-SA-01234, 2025.3 IPU, UEFI Reference Firmware Advisory, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf05028en_us&amp;docLocale=en_US</link><description>""HPESBHF05028 rev.1 - Certain HPE ProLiant DL/ML/XD/XL, Alletra, Apollo, Synergy, Microserver and Edgeline Servers Using Certain Intel Processor BIOS, INTEL-SA-01234, 2025.3 IPU, UEFI Reference Firmware Advisory, Multiple Vulnerabilities""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"MFSA 2026-19 Security Vulnerabilities fixed in Firefox 148.0.2"</title><link>https://www.mozilla.org/en-US/security/advisories/mfsa2026-19/</link><description>""
-
-**CVE:** CVE-2026-3847, CVE-2026-3846, CVE-2026-3845
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Authentication rate-limit bypass permits to brute force admin logins"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-082</link><description>""CVSSv3 Score: 7.3 An Improper Control of Interaction Frequency vulnerability [CWE-799] in FortiWeb may allow a remote unauthenticated attacker to bypass the authentication rate-limit via crafted requests. The success of the attack depends on the attacker's resources and the password target complexity. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-24017
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26030</link><description>""Acknowledgement added. This is an informational change only.""
-
-**CVE:** CVE-2026-26030
-**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Authentication Lockout Bypass via Race Condition"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-079</link><description>""CVSSv3 Score: 3.4 An improper restriction of excessive authentication attempts vulnerability [CWE-307] in FortiManager and FortiAnalyzer may allow an attacker to bypass bruteforce protections via exploitation of race conditions. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-22629
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3929 Side-channel information leakage in ResourceTiming"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3929</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3929
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3917 Use after free in Agents"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3917</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3917
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#march-13-2026</link><description>"Microsoft released the latest Microsoft Edge Stable Channel (Version 146.0.3856.59) which incorporates the latest Security Updates of the Chromium project. The Chromium team reported that CVE-2026-3910 has an exploit in the wild, and this update contains a fix for it. For more information, see the Security Update Guide."
-
-**CVE:** "CVE-2026-0385"
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4446 Use after free in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4446</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4446
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"iOS 16.7.15 and iPadOS 16.7.15"</title><link>https://support.apple.com/en-us/126646</link><description>""
-
-**CVE:** CVE-2023-43010
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4450 Out of bounds write in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4450</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4450
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3919 Use after free in Extensions"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3919</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3919
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293</link><description>""Acknowledgement added. This is an informational change only.""
-
-**CVE:** CVE-2026-24293
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3942 Incorrect security UI in PictureInPicture"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3942</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3942
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3916 Out of bounds read in Web Speech"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3916</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3916
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3920 Out of bounds memory access in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3920</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3920
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4448 Heap buffer overflow in ANGLE"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4448</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4448
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html</link><description>""
-
-**CVE:** CVE-2026-3909, CVE-2026-3910
-**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBNW05022 rev.1 - HPE Telco Intelligent Assurance, Improper Control of Generation of Code vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05022en_us&amp;docLocale=en_US</link><description>""HPESBNW05022 rev.1 - HPE Telco Intelligent Assurance, Improper Control of Generation of Code vulnerability""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html</link><description>""
-
-**CVE:** CVE-2026-3909
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4454 Use after free in Network"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4454</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4454
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"XSS in LDAP server option"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-091</link><description>""CVSSv3 Score: 4.6 An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox LDAP Server feature may allow an authenticated privileged attacker to execute code via crafted requests. Revised on 2026-03-10 00:00:00""
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>脆弱性情報の更新確認RSS</title><link>https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml</link><description>特定の脆弱性情報の更新情報</description><atom:link href="https://AgetakoSec.github.io/vulnerability-update-rss/rss.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 23 Mar 2026 11:12:20 +0000</lastBuildDate><item><title>"XSS in LDAP server option"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-091</link><description>""CVSSv3 Score: 4.6 An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox LDAP Server feature may allow an authenticated privileged attacker to execute code via crafted requests. Revised on 2026-03-10 00:00:00""
 
 **CVE:** CVE-2025-53608
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4444 Stack buffer overflow in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4444</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4444
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3932 Insufficient policy enforcement in PDF"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3932</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3932
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBNW05029 rev.1 - HPE Telco Service Orchestrator, Remote Buffer Overflow"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05029en_us&amp;docLocale=en_US</link><description>""HPESBNW05029 rev.1 - HPE Telco Service Orchestrator, Remote Buffer Overflow""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3936 Use after free in WebView"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3936</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3936
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4443 Heap buffer overflow in WebAudio"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4443</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4443
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBNW05027 rev.1 - HPE Aruba Networking AOS-CX, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05027en_us&amp;docLocale=en_US</link><description>""HPESBNW05027 rev.1 - HPE Aruba Networking AOS-CX, Multiple Vulnerabilities""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Workplace for Windows - External Control of File Name or Path"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26005/</link><description>""
-
-**CVE:** CVE-2026-30903
-**CVSS Score:** 9.6</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3918 Use after free in WebMCP"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3918</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3918
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"MFA Bypass in GUI"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-090</link><description>""CVSSv3 Score: 6.8 An authentication bypass using an alternate path or channel vulnerability [CWE-288] in FortiManager and FortiAnalyzer multifactor authentication may allow an attacker with knowledge of the admins password to bypass multifactor authentication checks via submitting multiple crafted requests. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-22572
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Buffer overflow via fgtupdates service"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-098</link><description>""CVSSv3 Score: 7.0 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiManager fgtupdates service may allow a remote unauthenticated attacker to execute unauthorized commands via crafted requests, if the service is enabled. The success of the attack depends on the ability to bypass the stack protection mechanisms. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-54820
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4451 Insufficient validation of untrusted input in Navigation"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4451</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4451
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3915 Heap buffer overflow in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3915</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3915
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4441 Use after free in Base"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4441</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4441
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4447 Inappropriate implementation in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4447</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4447
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_10.html</link><description>""
-
-**CVE:** CVE-2026-3927, CVE-2026-3917, CVE-2026-3924, CVE-2026-3929, CVE-2026-3940, CVE-2026-3915, CVE-2026-3937, CVE-2026-3919, CVE-2026-3939, CVE-2026-3916, CVE-2026-3920, CVE-2026-3932, CVE-2026-3926, CVE-2026-3918, CVE-2026-3922, CVE-2026-3941, CVE-2026-3913, CVE-2026-3935, CVE-2026-3930, CVE-2026-3931, CVE-2026-3914, CVE-2026-3936, CVE-2026-3942, CVE-2026-3938, CVE-2026-3934, CVE-2026-3925, CVE-2026-3923, CVE-2026-3928, CVE-2026-3921
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4449 Use after free in Blink"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4449</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4449
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Reflected Cross Site Scripting (XSS) in error page"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-077</link><description>""CVSSv3 Score: 4.1 An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') [CWE-79] in FortiSIEM's error page may allow a remote unauthenticated attacker to provide arbitrary data enabling a social engineering attack via spoofed URL parameters. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-25972
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2023-48795 Impact of Terrapin SSH Attack (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2023-48795</link><description>""""
-
-**CVE:** CVE-2023-48795
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4457 Type Confusion in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4457</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4457
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"March 2026 Security Update"</title><link>https://www.ivanti.com/blog/march-2026-security-update</link><description>""Ivanti releases standard security patches on the second Tuesday of every month. Our vulnerability management program is central to our commitment to maintaining secure products. Our philosophy is simple: discovering and communicating vulnerabilities, and sharing that information with defenders, is not an indication of weakness; rather it is evidence of rigorous scrutiny and a proactive vulnerability management program. By aggressively seeking to identify and address vulnerabilities, our aim is to get ahead of threat actors to ensure our customers can take the steps needed to protect their environments. We believe that responsible transparency helps protect our customers, and that CVE disclosures are an essential and effective tool to communicate software vulnerabilities. The purpose of assigning a CVE is to provide a beacon to security teams and signal the need for urgent updates. To that end, today Ivanti is disclosing vulnerabilities in Ivanti Desktop and Server Management (DSM). It is important for customers to know: We have no evidence of this vulnerability being exploited in the wild. This vulnerability does not impact any other Ivanti solutions. More information on this vulnerability and detailed instructions on how to remediate the issues can be found in this Security Advisory . Our Support team is always available to help customers and partners should they have any questions. Cases can be logged via the Ivanti Innovators Hub (login credentials required). Want to stay up to date on Ivanti Security Advisories? Paste https://www.ivanti.com/blog/topics/security-advisory/rss into your preferred RSS reader / functionality in your email program.""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4452 Integer overflow in ANGLE"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4452</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4452
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Null Pointer Dereference in Anti-Defacement feature"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-089</link><description>""CVSSv3 Score: 2.5 A NULL Pointer Dereference vulnerability [CWE-476] in FortiWeb may allow an authenticated attacker to crash the HTTP daemon via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-24641
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Vulnerability in QVR Pro"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-07</link><description>""A missing authentication for critical function vulnerability has been reported to affect QVR Pro. If exploited, remote attackers c ... More""
-
-**CVE:** 
-**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3935 Incorrect security UI in WebAppInstalls"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3935</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3935
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4461 Inappropriate implementation in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4461</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4461
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3925 Incorrect security UI in LookalikeChecks"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3925</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3925
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3938 Insufficient policy enforcement in Clipboard"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3938</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3938
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Workplace Clients for Windows - Improper Check"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26002/</link><description>""
-
-**CVE:** CVE-2026-30900
-**CVSS Score:** 7.8</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Local privilege escalation via improper symlink following"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-083</link><description>""CVSSv3 Score: 7.4 A UNIX symbolic link (Symlink) Following vulnerability [CWE-61] in FortiClientLinux may allow a local and unprivileged user to escalate their privileges to root. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-24018
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4460 Out of bounds read in Skia"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4460</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4460
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#march-16-2026</link><description>"Microsoft released the latest Microsoft Edge Stable Channel (Version 146.0.3856.62) which incorporates the latest Security Updates of the Chromium project. The Chromium team reported that CVE-2026-3909 has an exploit in the wild, and this update contains a fix for it. For more information, see the Security Update Guide."
-
-**CVE:** CVE-2026-3909
-**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"SQL injection in jsonrpc api"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-095</link><description>""CVSSv3 Score: 5.6 An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiAnalyzer and FortiAnalyzer-BigData API may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted requests. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-49784
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Protected hostname bypass"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-097</link><description>""CVSSv3 Score: 5.0 An authentication bypass by spoofing [CWE-290] vulnerability in FortiWeb protected hostname feature may allow a remote unauthenticated attacker to bypass hostname restrictions via a specially crafted request. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2025-48840
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"March Patch Day Security Notes"</title><link>https://support.sap.com/en/my-support/knowledge-base/security-notes-news/march-2026.html</link><description>""
-
-**CVE:** CVE-2026-24311, CVE-2026-27689, CVE-2025-9230, CVE-2026-24309, CVE-2026-27684, CVE-2026-27685, CVE-2019-17571, CVE-2026-24313, CVE-2025-9232, CVE-2026-0489, CVE-2026-27687, CVE-2026-24316, CVE-2026-27686, CVE-2026-24317, CVE-2026-27688, CVE-2026-24310
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4464 Integer overflow in ANGLE"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4464</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4464
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4455 Heap buffer overflow in PDFium"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4455</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
-
-**CVE:** CVE-2026-4455
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stack buffer overflow in API"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-093</link><description>""CVSSv3 Score: 5.9 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiWeb may allow a remote authenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-30897
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Arbitrary file deletion in administrative interface"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-094</link><description>""CVSSv3 Score: 6.0 An Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') vulnerability [CWE-88] in FortiDeceptor WEBUI may allow a privileged attacker with super-admin profile and CLI access to delete sensitive files via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
-
-**CVE:** CVE-2026-25689
 **CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4462 Out of bounds read in Blink"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4462</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
 
 **CVE:** CVE-2026-4462
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBST05001 rev.1 - HPE SAN Switches with Brocade Fabric OS (FOS), Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst05001en_us&amp;docLocale=en_US</link><description>""HPESBST05001 rev.1 - HPE SAN Switches with Brocade Fabric OS (FOS), Multiple Vulnerabilities""
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4448 Heap buffer overflow in ANGLE"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4448</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4448
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4443 Heap buffer overflow in WebAudio"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4443</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4443
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"ISC Packages for BIND 9"</title><link>https://kb.isc.org/docs/isc-packages-for-bind-9</link><description>""ISC offers binary packages for BIND 9. Versions supported Please note that we only provide packages for operating system versions currently supported. When we release a new version of BIND, we evaluate the OSes we are supporting. We add packages for newly released operating system versions as promptly as we are able and remove packages for operating system versions and BIND versions that become end-of-life Why does ISC provide BIND 9 packages? For all open source users We want to ensure BIND 9 ...""
 
 **CVE:** 
-**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"User may experience issue with creating Clients"</title><link>https://status.sharefile.com/incidents/yc1n8jrln7zm</link><description>""Mar 16 , 16:11 EDT Resolved - This incident has been resolved. Mar 16 , 16:06 EDT Monitoring - A fix has been implemented and we are monitoring the results. Mar 16 , 15:44 EDT Investigating - We are currently investigating this issue.""
+**CVSS Score:** </description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-26133 M365 Copilot Information Disclosure Vulnerability"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26133</link><description>""Updated an acknowledgement. This is an informational change only.""
+
+**CVE:** CVE-2026-26133
+**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"WordPress 6.9.2 Release"</title><link>https://wordpress.org/news/2026/03/wordpress-6-9-2-release/</link><description>""WordPress 6.9.2 is now available This is a security release that features several fixes. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 6.9.2 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic […]""
 
 **CVE:** 
-**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3928 Insufficient policy enforcement in Extensions"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3928</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3928
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"APSB26-26 : Security update available for Adobe Acrobat Reader"</title><link>https://helpx.adobe.com/security/products/acrobat/apsb26-26.html</link><description>""
-
-**CVE:** CVE-2026-27278, CVE-2026-27221, CVE-2026-27220
-**CVSS Score:** 7.8</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Vulnerability in Media Streaming Add-on"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-09</link><description>""A buffer overflow vulnerability has been reported to affect Media Streaming Add-On. The remote attackers can then exploit the vuln ... More""
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBST05001 rev.1 - HPE SAN Switches with Brocade Fabric OS (FOS), Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst05001en_us&amp;docLocale=en_US</link><description>""HPESBST05001 rev.1 - HPE SAN Switches with Brocade Fabric OS (FOS), Multiple Vulnerabilities""
 
 **CVE:** 
-**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Background Security Improvements for iOS, iPadOS, and macOS"</title><link>https://support.apple.com/en-us/126604</link><description>""
-
-**CVE:** CVE-2026-20643
-**CVSS Score:** </description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3913 Heap buffer overflow in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
-
-**CVE:** CVE-2026-3913
-**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-26148 Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26148</link><description>""Acknowledgement Updated""
+**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-26148 Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26148</link><description>""Acknowledgement Updated""
 
 **CVE:** CVE-2026-26148
-**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Buffer Overflow in LLDP OUI field"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-086</link><description>""CVSSv3 Score: 7.7 A Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability [CWE-120] in FortiSwitchAXFixed may allow an unauthenticated attacker within the same adjacent network to execute unauthorized code or commands on the device via sending a crafted LLDP packet. Revised on 2026-03-10 00:00:00""
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Oracle Security Alert for CVE-2026-21992 - 19 March 2026"</title><link>https://www.oracle.com/security-alerts/alert-cve-2026-21992.html</link><description>""""
 
-**CVE:** CVE-2026-22627
-**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4456 Use after free in Digital Credentials API"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4456</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+**CVE:** CVE-2026-21992
+**CVSS Score:** </description><pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Multiple Vulnerabilities in QuNetSwitch (ADRA NDR)"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-11</link><description>""Multiple vulnerabilities have been reported to affect QuNetSwitch. CVE-2026-22897: Remote attackers can exploit the command injec ... More""
+
+**CVE:** CVE-2026-22897
+**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3537 Object lifecycle issue in PowerVR"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3537</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3537
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Protected hostname bypass"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-097</link><description>""CVSSv3 Score: 5.0 An authentication bypass by spoofing [CWE-290] vulnerability in FortiWeb protected hostname feature may allow a remote unauthenticated attacker to bypass hostname restrictions via a specially crafted request. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-48840
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_10.html</link><description>""
+
+**CVE:** CVE-2026-3934, CVE-2026-3928, CVE-2026-3917, CVE-2026-3939, CVE-2026-3916, CVE-2026-3937, CVE-2026-3914, CVE-2026-3922, CVE-2026-3924, CVE-2026-3913, CVE-2026-3940, CVE-2026-3918, CVE-2026-3915, CVE-2026-3927, CVE-2026-3921, CVE-2026-3938, CVE-2026-3931, CVE-2026-3929, CVE-2026-3935, CVE-2026-3942, CVE-2026-3926, CVE-2026-3930, CVE-2026-3936, CVE-2026-3941, CVE-2026-3919, CVE-2026-3932, CVE-2026-3920, CVE-2026-3923, CVE-2026-3925
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBNW05027 rev.1 - HPE Aruba Networking AOS-CX, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05027en_us&amp;docLocale=en_US</link><description>""HPESBNW05027 rev.1 - HPE Aruba Networking AOS-CX, Multiple Vulnerabilities""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stork 2.4 and Kea socket permissions"</title><link>https://kb.isc.org/docs/stork-kea-socket-perms</link><description>""Summary Stork 2.4 with Kea 3.0 may have issues due to default permissions of the Kea control sockets. Fixes are planned for future release(s), but some workarounds are possible immediately. Environment Stork 2.4.0 or later Kea 3.0.0 or later Symptoms The Stork agent (stork-agent) running on a Kea server will fail to connect to the Kea API offered by the Kea daemons. The Stork server web UI will show messages about daemon communication problems, such as: Stork server reports communication pr ...""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4455 Heap buffer overflow in PDFium"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4455</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4455
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3918 Use after free in WebMCP"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3918</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3918
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3937 Incorrect security UI in Downloads"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3937</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3937
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Local privilege escalation via improper symlink following"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-083</link><description>""CVSSv3 Score: 7.4 A UNIX symbolic link (Symlink) Following vulnerability [CWE-61] in FortiClientLinux may allow a local and unprivileged user to escalate their privileges to root. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-24018
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-24293 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-24293</link><description>""Acknowledgement added. This is an informational change only.""
+
+**CVE:** CVE-2026-24293
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stack-based Buffer Overflow in API protection"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-087</link><description>""CVSSv3 Score: 5.9 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiWeb may allow a remote authenticated attacker to execute arbitrary code or commands via crafted HTTP requests. Success of the attack is conditioned to bypassing stack protection and ASLR. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-24640
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Arbitrary file deletion in administrative interface"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-094</link><description>""CVSSv3 Score: 6.0 An Improper Neutralization of Argument Delimiters in a Command ('Argument Injection') vulnerability [CWE-88] in FortiDeceptor WEBUI may allow a privileged attacker with super-admin profile and CLI access to delete sensitive files via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-25689
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4449 Use after free in Blink"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4449</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4449
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Rooms for Windows - Improper Input Validation"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26003/</link><description>""
+
+**CVE:** CVE-2026-30901
+**CVSS Score:** 7.0</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3925 Incorrect security UI in LookalikeChecks"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3925</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3925
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4445 Use after free in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4445</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4445
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3910 Inappropriate implementation in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3910</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3910 exists in the wild.""
+
+**CVE:** CVE-2026-3910
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Clients for Windows - Improper Privilege Management"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26004/</link><description>""
+
+**CVE:** CVE-2026-30902
+**CVSS Score:** 7.8</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3922 Use after free in MediaStream"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3922</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3922
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3929 Side-channel information leakage in ResourceTiming"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3929</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3929
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2023-48795 Impact of Terrapin SSH Attack (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2023-48795</link><description>""""
+
+**CVE:** CVE-2023-48795
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Buffer overflow via fgtupdates service"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-098</link><description>""CVSSv3 Score: 7.0 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiManager fgtupdates service may allow a remote unauthenticated attacker to execute unauthorized commands via crafted requests, if the service is enabled. The success of the attack depends on the ability to bypass the stack protection mechanisms. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-54820
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Workplace Clients for Windows - Improper Check"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26002/</link><description>""
+
+**CVE:** CVE-2026-30900
+**CVSS Score:** 7.8</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4444 Stack buffer overflow in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4444</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4444
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3914 Integer overflow in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3914</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3914
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3927 Incorrect security UI in PictureInPicture"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3927</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3927
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-0231 Cortex XDR Broker VM: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2026-0231</link><description>""""
+
+**CVE:** CVE-2026-0231
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3934 Insufficient policy enforcement in ChromeDriver"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3934</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3934
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4446 Use after free in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4446</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4446
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3939 Use after free in WebView"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3939</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3939
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"MFA Bypass in GUI"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-090</link><description>""CVSSv3 Score: 6.8 An authentication bypass using an alternate path or channel vulnerability [CWE-288] in FortiManager and FortiAnalyzer multifactor authentication may allow an attacker with knowledge of the admins password to bypass multifactor authentication checks via submitting multiple crafted requests. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-22572
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-26030 GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26030</link><description>""Acknowledgement added. This is an informational change only.""
+
+**CVE:** CVE-2026-26030
+**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Null Pointer Dereference in Anti-Defacement feature"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-089</link><description>""CVSSv3 Score: 2.5 A NULL Pointer Dereference vulnerability [CWE-476] in FortiWeb may allow an authenticated attacker to crash the HTTP daemon via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-24641
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Format string vulnerability in fazsvcd"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-092</link><description>""CVSSv3 Score: 6.5 A use of externally-controlled format string vulnerability [CWE-134] in FortiAnalyzer, FortiAnalyzer Cloud, FortiManager and FortiManager Cloud fazsvcd daemon may allow a remote privileged attacker with admin profile to execute arbitrary code or commands via specially crafted requests. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-68648
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Vulnerability in QVR Pro"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-07</link><description>""A missing authentication for critical function vulnerability has been reported to affect QVR Pro. If exploited, remote attackers c ... More""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"OS Command injection in FortiWeb API"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-088</link><description>""CVSSv3 Score: 6.7 An OS Command Injection vulnerability [CWE-78] in FortiWeb API may allow an authenticated attacked to execute arbitrary commands via a specialy crafted HTTP request. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-66178
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html</link><description>""
+
+**CVE:** CVE-2026-3909, CVE-2026-3910
+**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"March 2026 Security Update"</title><link>https://www.ivanti.com/blog/march-2026-security-update</link><description>""Ivanti releases standard security patches on the second Tuesday of every month. Our vulnerability management program is central to our commitment to maintaining secure products. Our philosophy is simple: discovering and communicating vulnerabilities, and sharing that information with defenders, is not an indication of weakness; rather it is evidence of rigorous scrutiny and a proactive vulnerability management program. By aggressively seeking to identify and address vulnerabilities, our aim is to get ahead of threat actors to ensure our customers can take the steps needed to protect their environments. We believe that responsible transparency helps protect our customers, and that CVE disclosures are an essential and effective tool to communicate software vulnerabilities. The purpose of assigning a CVE is to provide a beacon to security teams and signal the need for urgent updates. To that end, today Ivanti is disclosing vulnerabilities in Ivanti Desktop and Server Management (DSM). It is important for customers to know: We have no evidence of this vulnerability being exploited in the wild. This vulnerability does not impact any other Ivanti solutions. More information on this vulnerability and detailed instructions on how to remediate the issues can be found in this Security Advisory . Our Support team is always available to help customers and partners should they have any questions. Cases can be logged via the Ivanti Innovators Hub (login credentials required). Want to stay up to date on Ivanti Security Advisories? Paste https://www.ivanti.com/blog/topics/security-advisory/rss into your preferred RSS reader / functionality in your email program.""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4457 Type Confusion in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4457</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4457
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4450 Out of bounds write in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4450</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4450
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3913 Heap buffer overflow in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3913</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3913
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/PAN-SA-2026-0003</link><description>""""
+
+**CVE:** CVE-2026-2323, CVE-2026-2319145, CVE-2026-2318, CVE-2026-2322145, CVE-2026-2441145, CVE-2026-2322, CVE-2026-2323145, CVE-2026-2317145, CVE-2026-2441, CVE-2026-2317, CVE-2026-2314, CVE-2026-2321, CVE-2026-2318145, CVE-2026-2319, CVE-2026-2321145, CVE-2026-2314145
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Authentication rate-limit bypass permits to brute force admin logins"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-082</link><description>""CVSSv3 Score: 7.3 An Improper Control of Interaction Frequency vulnerability [CWE-799] in FortiWeb may allow a remote unauthenticated attacker to bypass the authentication rate-limit via crafted requests. The success of the attack depends on the attacker's resources and the password target complexity. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-24017
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4460 Out of bounds read in Skia"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4460</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4460
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"March Patch Day Security Notes"</title><link>https://support.sap.com/en/my-support/knowledge-base/security-notes-news/march-2026.html</link><description>""
+
+**CVE:** CVE-2026-0489, CVE-2026-27685, CVE-2026-27687, CVE-2026-24317, CVE-2019-17571, CVE-2026-24316, CVE-2026-27686, CVE-2025-9230, CVE-2026-27689, CVE-2026-24313, CVE-2026-24309, CVE-2026-27688, CVE-2026-24311, CVE-2025-9232, CVE-2026-24310, CVE-2026-27684
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4461 Inappropriate implementation in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4461</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4461
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBHF05024 rev.1 - HPE Compute Scale-up Server 3200 Platform Using Certain Intel Processors, INTEL-SA-01396, 2026.1 IPU, Intel Processor Firmware Advisory, Local Escalation of Privilege Vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf05024en_us&amp;docLocale=en_US</link><description>""HPESBHF05024 rev.1 - HPE Compute Scale-up Server 3200 Platform Using Certain Intel Processors, INTEL-SA-01396, 2026.1 IPU, Intel Processor Firmware Advisory, Local Escalation of Privilege Vulnerability""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4440 Out of bounds read and write in WebGL"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4440</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4440
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"User may experience issue with creating Clients"</title><link>https://status.sharefile.com/incidents/yc1n8jrln7zm</link><description>""Mar 16 , 16:11 EDT Resolved - This incident has been resolved. Mar 16 , 16:06 EDT Monitoring - A fix has been implemented and we are monitoring the results. Mar 16 , 15:44 EDT Investigating - We are currently investigating this issue.""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"CVE-2026-0230 Cortex XDR Agent: Local Administrator can disable the agent on macOS (Severity: MEDIUM)"</title><link>https://security.paloaltonetworks.com/CVE-2026-0230</link><description>""""
+
+**CVE:** CVE-2026-0230
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"APSB26-26 : Security update available for Adobe Acrobat Reader"</title><link>https://helpx.adobe.com/security/products/acrobat/apsb26-26.html</link><description>""
+
+**CVE:** CVE-2026-27220, CVE-2026-27221, CVE-2026-27278
+**CVSS Score:** 7.8</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBNW05022 rev.1 - HPE Telco Intelligent Assurance, Improper Control of Generation of Code vulnerability"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05022en_us&amp;docLocale=en_US</link><description>""HPESBNW05022 rev.1 - HPE Telco Intelligent Assurance, Improper Control of Generation of Code vulnerability""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Lack of TLS Certificate Validation during initial SSO Authentication"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-078</link><description>""CVSSv3 Score: 6.3 An improper certificate validation [CWE-295] vulnerability in the FortiManager GUI may allow a remote unauthenticated attacker to view confidential information via a man in the middle [MiTM] attack. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-68482
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4451 Insufficient validation of untrusted input in Navigation"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4451</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4451
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBST05000 rev.1 - HPE B-Series SANnav Management Portal, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst05000en_us&amp;docLocale=en_US</link><description>""HPESBST05000 rev.1 - HPE B-Series SANnav Management Portal, Multiple Vulnerabilities""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3909 Out of bounds write in Skia"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3909</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3909 exists in the wild.""
+
+**CVE:** CVE-2026-3909
+**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"ESET Customer Advisory: Mandatory Auto-updates of ESET security applications for the Windows platform"</title><link>https://support-feed.eset.com/link/15370/17304044/ca8930</link><description>""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3928 Insufficient policy enforcement in Extensions"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3928</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3928
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"iOS 16.7.15 and iPadOS 16.7.15"</title><link>https://support.apple.com/en-us/126646</link><description>""
+
+**CVE:** CVE-2023-43010
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4452 Integer overflow in ANGLE"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4452</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4452
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3915 Heap buffer overflow in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3915</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3915
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Zoom Workplace for Windows - External Control of File Name or Path"</title><link>https://www.zoom.com/ja/trust/security-bulletin/ZSB-26005/</link><description>""
+
+**CVE:** CVE-2026-30903
+**CVSS Score:** 9.6</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3916 Out of bounds read in Web Speech"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3916</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3916
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"iOS 15.8.7 and iPadOS 15.8.7"</title><link>https://support.apple.com/en-us/126632</link><description>""
+
+**CVE:** CVE-2023-43000, CVE-2023-41974, CVE-2024-23222, CVE-2023-43010
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3920 Out of bounds memory access in WebML"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3920</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3920
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#march-16-2026</link><description>"Microsoft released the latest Microsoft Edge Stable Channel (Version 146.0.3856.62) which incorporates the latest Security Updates of the Chromium project. The Chromium team reported that CVE-2026-3909 has an exploit in the wild, and this update contains a fix for it. For more information, see the Security Update Guide."
+
+**CVE:** CVE-2026-3909
+**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3924 Use after free in WindowDialog"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3924</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3924
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4458 Use after free in Extensions"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4458</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4458
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3921 Use after free in TextEncoding"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3921</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3921
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Reflected Cross Site Scripting (XSS) in error page"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-077</link><description>""CVSSv3 Score: 4.1 An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') [CWE-79] in FortiSIEM's error page may allow a remote unauthenticated attacker to provide arbitrary data enabling a social engineering attack via spoofed URL parameters. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-25972
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Security Bulletin - March 17 2026"</title><link>https://confluence.atlassian.com/security/security-bulletin-march-17-2026-1721271371.html</link><description>""
+
+**CVE:** CVE-2023-22518, CVE-2025-64775, CVE-2026-21570, CVE-2022-41903, CVE-2023-22527, CVE-2026-24842, CVE-2023-46604, CVE-2023-22523, CVE-2023-22522, CVE-2022-23521, CVE-2024-57699, CVE-2025-64756, CVE-2019-13990, CVE-2020-28469, CVE-2026-22029, CVE-2026-25639, CVE-2023-52428, CVE-2026-21884, CVE-2023-22524, CVE-2026-23950, CVE-2022-1471, CVE-2026-23745, CVE-2025-68493, CVE-2022-25927, CVE-2022-25883
+**CVSS Score:** </description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4454 Use after free in Network"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4454</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4454
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4456 Use after free in Digital Credentials API"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4456</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
 
 **CVE:** CVE-2026-4456
-**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBNW05029 rev.1 - HPE Telco Service Orchestrator, Remote Buffer Overflow"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05029en_us&amp;docLocale=en_US</link><description>""HPESBNW05029 rev.1 - HPE Telco Service Orchestrator, Remote Buffer Overflow""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#march-13-2026</link><description>"Microsoft released the latest Microsoft Edge Stable Channel (Version 146.0.3856.59) which incorporates the latest Security Updates of the Chromium project. The Chromium team reported that CVE-2026-3910 has an exploit in the wild, and this update contains a fix for it. For more information, see the Security Update Guide."
+
+**CVE:** "CVE-2026-0385"
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3923 Use after free in WebMIDI"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3923</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3923
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3930 Unsafe navigation in Navigation"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3930</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3930
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"SQL injection in jsonrpc api"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-095</link><description>""CVSSv3 Score: 5.6 An Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiAnalyzer and FortiAnalyzer-BigData API may allow an authenticated attacker to execute unauthorized code or commands via specifically crafted requests. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-49784
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3931 Heap buffer overflow in Skia"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3931</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3931
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html</link><description>""
+
+**CVE:** CVE-2026-3909
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stack buffer overflow in API"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-093</link><description>""CVSSv3 Score: 5.9 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiWeb may allow a remote authenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-30897
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Buffer Overflow in LLDP OUI field"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-086</link><description>""CVSSv3 Score: 7.7 A Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability [CWE-120] in FortiSwitchAXFixed may allow an unauthenticated attacker within the same adjacent network to execute unauthorized code or commands on the device via sending a crafted LLDP packet. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-22627
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Microsoft Edge Security Updates"</title><link>https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnotes-security#march-20-2026</link><description>"Microsoft released the latest Microsoft Edge Stable Channel (Version 146.0.3856.72) which incorporates the latest Security Updates of the Chromium project. For more information, see the Security Update Guide."
+
+**CVE:** CVE-2024-38209, CVE-2023-36026, CVE-2022-2294, CVE-2023-38174, CVE-2025-29796, CVE-2024-39379, CVE-2023-21775, CVE-2024-20709, CVE-2022-3723, CVE-2026-3909, CVE-2024-4671, CVE-2022-26905, CVE-2021-31982, CVE-2022-23258, CVE-2021-26436, CVE-2021-38641, CVE-2025-21401, CVE-2021-21220, CVE-2023-36024, CVE-2024-26247, CVE-2023-36888, CVE-2023-29354, CVE-2023-29350, CVE-2024-38093, CVE-2024-21326, CVE-2020-16013, CVE-2021-38669, CVE-2024-21385, CVE-2023-0941, CVE-2026-21223, CVE-2023-28301, CVE-2024-2883, CVE-2022-26908, CVE-2024-38207, CVE-2021-43221, CVE-2024-38219, CVE-2021-37973, CVE-2026-0102, CVE-2025-6558, CVE-2023-36735, CVE-2023-36014, CVE-2024-49023, CVE-2023-4863, CVE-2022-21929, CVE-2024-38218, CVE-2022-0609, CVE-2023-38157, CVE-2023-7024, CVE-2023-36022, CVE-2023-44323, CVE-2022-30192, CVE-2021-31937, CVE-2022-38012, CVE-2020-15999, CVE-2025-21342, CVE-2023-21794, CVE-2021-38003, CVE-2021-36929, CVE-2024-21383, CVE-2025-60711, CVE-2023-29334, CVE-2023-5217, CVE-2022-30128, CVE-2024-43579, CVE-2023-36034, CVE-2022-33649, CVE-2024-43595, CVE-2024-38221, CVE-2024-0519, CVE-2024-4761, CVE-2023-33145, CVE-2021-37976, CVE-2025-47963, CVE-2024-29986, CVE-2023-28284, CVE-2021-38000, CVE-2025-2783, CVE-2022-3075, CVE-2025-10585, CVE-2024-26246, CVE-2024-43496, CVE-2024-43472, CVE-2023-36878, CVE-2025-29795, CVE-2021-37975, CVE-2024-38083, CVE-2021-30551, CVE-2025-47967, CVE-2025-21408, CVE-2023-21795, CVE-2023-21720, CVE-2025-21267, CVE-2024-38208, CVE-2024-26196, CVE-2024-29057, CVE-2024-7971, CVE-2023-35618, CVE-2024-21336, CVE-2023-36880, CVE-2022-26900, CVE-2022-26899, CVE-2024-41879, CVE-2021-26439, CVE-2023-23374, CVE-2025-6554, CVE-2026-3910, CVE-2026-2441, CVE-2021-21166, CVE-2020-1341, CVE-2023-2033, CVE-2022-35796, CVE-2022-33680, CVE-2021-30633, CVE-2024-26188, CVE-2020-6418, CVE-2024-26167, CVE-2025-53791, CVE-2023-36887, CVE-2022-22021, CVE-2024-38156, CVE-2024-5274, CVE-2023-36559, CVE-2020-16017, CVE-2022-26909, CVE-2022-21931, CVE-2023-38187, CVE-2021-43220, CVE-2023-36027, CVE-2024-7965, CVE-2025-21185, CVE-2024-43596, CVE-2024-49041, CVE-2023-29345, CVE-2024-20675, CVE-2022-21930, CVE-2021-30563, CVE-2025-21279, CVE-2022-33639, CVE-2022-26895, CVE-2022-24523, CVE-2023-36008, CVE-2025-21253, CVE-2025-26643, CVE-2023-36787, CVE-2024-38210, CVE-2024-21423, CVE-2025-21262, CVE-2022-23261, CVE-2021-42308, CVE-2022-44708, CVE-2022-24475, CVE-2023-36029, CVE-2022-29144, CVE-2024-49054, CVE-2024-43489, CVE-2023-36741, CVE-2022-1364, CVE-2022-1096, CVE-2024-29987, CVE-2022-23262, CVE-2021-30632, CVE-2021-4102, CVE-2021-34475, CVE-2024-43580, CVE-2024-21387, CVE-2025-21399, CVE-2024-49025, CVE-2024-43578, CVE-2021-36928, CVE-2022-21970, CVE-2023-36562, CVE-2022-21954, CVE-2024-30058, CVE-2024-26192, CVE-2025-29825, CVE-2025-21404, CVE-2021-21193, CVE-2020-1195, CVE-2025-49713, CVE-2025-47181, CVE-2023-28286, CVE-2022-4262, CVE-2022-30127, CVE-2024-29981, CVE-2025-4664, CVE-2024-21388, CVE-2026-26133, CVE-2023-28261, CVE-2022-41035, CVE-2021-30554, CVE-2021-21206, CVE-2023-38173, CVE-2021-21148, CVE-2021-33741, CVE-2021-24113, CVE-2024-21382, CVE-2024-21337, CVE-2021-21224, CVE-2024-4947, CVE-2025-47964, CVE-2023-3079, CVE-2021-34506, CVE-2024-30055, CVE-2025-24201, CVE-2021-38642, CVE-2022-41115, CVE-2024-43577, CVE-2023-24935, CVE-2024-38103, CVE-2025-5419, CVE-2025-21283, CVE-2022-44688, CVE-2022-2856, CVE-2022-26891, CVE-2023-6345, CVE-2022-33636, CVE-2022-26894, CVE-2024-30057, CVE-2024-43587, CVE-2024-30056, CVE-2024-29991, CVE-2024-29049, CVE-2024-21399, CVE-2021-36931, CVE-2024-26163, CVE-2022-23264, CVE-2023-35392, CVE-2023-2136, CVE-2023-21796, CVE-2024-38082, CVE-2022-4135, CVE-2022-33638, CVE-2023-36727, CVE-2023-38158, CVE-2025-62223, CVE-2025-47182, CVE-2025-13223, CVE-2023-33143, CVE-2022-29147, CVE-2025-25000, CVE-2024-43566, CVE-2024-38222, CVE-2023-36883, CVE-2023-21719, CVE-2022-23263, CVE-2026-0385, CVE-2025-29834, CVE-2022-26912, CVE-2021-36930, CVE-2020-16009, CVE-2022-29146, CVE-2024-20721
+**CVSS Score:** </description><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Background Security Improvements for iOS, iPadOS, and macOS"</title><link>https://support.apple.com/en-us/126604</link><description>""
+
+**CVE:** CVE-2026-20643
+**CVSS Score:** </description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3941 Insufficient policy enforcement in DevTools"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3941</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3941
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Vulnerability in Media Streaming Add-on"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-09</link><description>""A buffer overflow vulnerability has been reported to affect Media Streaming Add-On. The remote attackers can then exploit the vuln ... More""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"MFSA 2026-19 Security Vulnerabilities fixed in Firefox 148.0.2"</title><link>https://www.mozilla.org/en-US/security/advisories/mfsa2026-19/</link><description>""
+
+**CVE:** CVE-2026-3846, CVE-2026-3845, CVE-2026-3847
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Path traversal vulnerability in FortiSOAR Agent Connector Bridge server"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-084</link><description>""CVSSv3 Score: 5.5 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability [CWE-22] in FortiSOAR Agent Connector Bridge may allow an unauthenticated attacker to read files accessible to the fortisoar user on the system where the agent is deployed, via sending a crafted request to the agent port. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-54659
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4463 Heap buffer overflow in WebRTC"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4463</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4463
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3935 Incorrect security UI in WebAppInstalls"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3935</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3935
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3926 Out of bounds read in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3926</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3926
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3940 Insufficient policy enforcement in DevTools"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3940</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3940
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4447 Inappropriate implementation in V8"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4447</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4447
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Stable Channel Update for Desktop"</title><link>https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_18.html</link><description>""
+
+**CVE:** CVE-2026-4449, CVE-2026-4451, CVE-2026-4443, CVE-2026-4445, CVE-2026-4461, CVE-2026-4439, CVE-2026-4462, CVE-2026-4452, CVE-2026-4441, CVE-2026-4459, CVE-2026-4440, CVE-2026-4453, CVE-2026-4460, CVE-2026-4454, CVE-2026-4464, CVE-2026-4450, CVE-2026-4444, CVE-2026-4447, CVE-2026-4457, CVE-2026-4442, CVE-2026-4455, CVE-2026-4448, CVE-2026-4458, CVE-2026-4446, CVE-2026-4463, CVE-2026-4456
+**CVSS Score:** </description><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Multiple Vulnerabilities in QuRouter (PWN2OWN 2025)"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-12</link><description>""Multiple vulnerabilities have been reported to affect QHora. CVE-2025-62843: If an attacker gains physical access, they can ... More""
+
+**CVE:** CVE-2025-62843
+**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3919 Use after free in Extensions"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3919</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3919
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3932 Insufficient policy enforcement in PDF"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3932</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3932
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Insecure Exposure of Plaintext Passwords in Debug Logs"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-080</link><description>""CVSSv3 Score: 3.8 A Cleartext Storage of Sensitive Information vulnerability [CWE-312] in FortiMail, FortiVoice and FortiRecorder debug logs may allow an authenticated malicious administrator to obtain user's secrets via CLI commands. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-55717
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3938 Insufficient policy enforcement in Clipboard"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3938</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3938
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"OS command injection on vmimages update feature"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-096</link><description>""CVSSv3 Score: 6.7 An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiSandbox Cloud WEB UI may allow a privileged attacker with super-admin profile and CLI access to execute unauthorized code or commands via crafted HTTP requests. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-25836
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4441 Use after free in Base"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4441</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4441
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"shell command limitation bypass by SSH local config overriding"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-085</link><description>""CVSSv3 Score: 5.1 An Improper Access Control vulnerability [CWE-284] in FortiSwitchAXFixed may allow an authenticated admin to execute system commands via a specifically crafted SSH config file. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-22628
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Vulnerability in QuFTP Service"</title><link>https://www.qnap.com/en-us/security-advisory/QSA-26-15</link><description>""A cross-site scripting (XSS) vulnerability has been reported to affect QuFTP Service. If a remote attacker gains an administrator ... More""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Authentication Lockout Bypass via Race Condition"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-079</link><description>""CVSSv3 Score: 3.4 An improper restriction of excessive authentication attempts vulnerability [CWE-307] in FortiManager and FortiAnalyzer may allow an attacker to bypass bruteforce protections via exploitation of race conditions. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2026-22629
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"HPESBHF05028 rev.1 - Certain HPE ProLiant DL/ML/XD/XL, Alletra, Apollo, Synergy, Microserver and Edgeline Servers Using Certain Intel Processor BIOS, INTEL-SA-01234, 2025.3 IPU, UEFI Reference Firmware Advisory, Multiple Vulnerabilities"</title><link>https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf05028en_us&amp;docLocale=en_US</link><description>""HPESBHF05028 rev.1 - Certain HPE ProLiant DL/ML/XD/XL, Alletra, Apollo, Synergy, Microserver and Edgeline Servers Using Certain Intel Processor BIOS, INTEL-SA-01234, 2025.3 IPU, UEFI Reference Firmware Advisory, Multiple Vulnerabilities""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-4464 Integer overflow in ANGLE"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-4464</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.""
+
+**CVE:** CVE-2026-4464
+**CVSS Score:** </description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3942 Incorrect security UI in PictureInPicture"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3942</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3942
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3936 Use after free in WebView"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3936</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3936
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Changes to be aware of when moving from BIND 9.16 to 9.18"</title><link>https://kb.isc.org/docs/changes-to-be-aware-of-when-moving-from-bind-916-to-918</link><description>""Maintaining our process of continuous improvement, there have been some major changes in BIND between the two currently supported ESV versions - 9.16 and 9.18. This article summarises what those changes are so that you can go into this upgrade knowing which features are likely to affect your installation and what parameters you might need to adjust. Working document This article is still under construction. We will add more detail about impacts of the changes listed as we learn about them. Maj ...""
+
+**CVE:** 
+**CVSS Score:** </description><pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Privilege escalation using undocumented CLI command"</title><link>https://fortiguard.fortinet.com/psirt/FG-IR-26-081</link><description>""CVSSv3 Score: 6.4 An Inclusion of Undocumented Features [CWE-1242] in FortiManager and FortiAnalyzer CLI may allow a remote authenticated read-only admin with CLI access to escalate their privilege via use of a hidden command. Revised on 2026-03-10 00:00:00""
+
+**CVE:** CVE-2025-48418
+**CVSS Score:** </description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>"Chromium: CVE-2026-3917 Use after free in Agents"</title><link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3917</link><description>""This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.""
+
+**CVE:** CVE-2026-3917
+**CVSS Score:** </description><pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
