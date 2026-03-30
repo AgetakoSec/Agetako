@@ -1,78 +1,51 @@
 "SiteName","date","title","link","error"
-"Apache Tomcat 10 Security Advisories","","","","Invalid date format"
-"Apache Tomcat 11 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 9 Security Advisories","","","","Invalid date format"
+"Apache Tomcat 11 Security Advisories","","","","Invalid date format"
+"Apache Tomcat 10 Security Advisories","","","","Invalid date format"
 "PHP Security Releases","2025/12/18","PHP 8.1.34 Released!","https://www.php.net/archive/2025.php#2025-12-18-5",""
 "Adobe Acrobat and Reader","2026/03/10","APSB26-05 : Security update available for Adobe Commerce","https://helpx.adobe.com/security/products/magento/apsb26-05.html",""
 "SAP","2026/03/10","March Patch Day Security Notes","https://support.sap.com/en/my-support/knowledge-base/security-notes-news/march-2026.html",""
-"netgear","","","","[Errno 26] Text file busy: '/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165/chromedriver-linux64/chromedriver'"
-"Broadcom Symantec","","","","[Errno 26] Text file busy: '/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165/chromedriver-linux64/chromedriver'"
+"一太郎","","","","[Errno 26] Text file busy: '/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165/chromedriver-linux64/chromedriver'"
+"Juniper","","","","[Errno 26] Text file busy: '/home/runner/.wdm/drivers/chromedriver/linux64/146.0.7680.165/chromedriver-linux64/chromedriver'"
 "Cisco Webex Security Advisories","2025/09/03","Cisco Webex Meetings URLリダイレクションの脆弱性","https://www.cisco.com/c/ja_jp/support/docs/csa/2025/cisco-sa-webex-urlredirect-uK8dDJSZ.html",""
+"netgear","","","","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+"Broadcom Symantec","","","","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+"Cisco","","","","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 "Citrix","","","","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-"一太郎","","","","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-"ESET","","","","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-"Juniper","","","","('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-"Zoom Security Bulletin","2026/03/10","Zoom Workplace for Windows - External Control of File Name or Path","https://www.zoom.com/ja/trust/security-bulletin/ZSB-26005/",""
 "Aruba","2026/03/26","HPESBNW05031 rev.1 - HPE Telco Service Orchestrator, Multiple Vulnerabilities","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05031en_us&docLocale=en_US",""
-"BarracudaAdvisories","2025/12/10","RCE Vulnerabilities in Barracuda RMM Service Center – Hotfix Available","https://trust.barracuda.com/security/information/rce-vulnerabilities-barracuda-rmm-service-center-hotfix-availabile",""
+"Zoom Security Bulletin","2026/03/10","Zoom Workplace for Windows - External Control of File Name or Path","https://www.zoom.com/ja/trust/security-bulletin/ZSB-26005/",""
 "SKYSEA Client View","2025/11/14","ASP.NET Coreの脆弱性（CVE-2025-55315）に関する注意喚起","https://www.skygroup.jp/security-info/news/251114.html",""
-"Google Chrome Releases","2026/03/25","Chrome for Android Update","https://chromereleases.googleblog.com/2026/03/chrome-for-android-update_0888810258.html",""
-"Microsoft Edge Security Updates","","","","Invalid date format"
-"SonicWall","2026/02/24","SonicOS multiple post-authentication vulnerabilities","https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0001",""
-"FFRI Security Info","2024/07/29","【重要】FFRI AMCにおける任意のコマンド実行可能な脆弱性について","https://www.ffri.jp/assets/files/other_docs/20240729.pdf",""
-"Palo Alto","2026/03/11","PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)","https://security.paloaltonetworks.com/PAN-SA-2026-0003",""
-"TrendMicro Apex One","2026/03/17","[製品]ウイルスバスター ビジネスセキュリティ サポート終了に関するお知らせ:2026/03/17 13:00:00","https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4692",""
+"BarracudaAdvisories","2025/12/10","RCE Vulnerabilities in Barracuda RMM Service Center – Hotfix Available","https://trust.barracuda.com/security/information/rce-vulnerabilities-barracuda-rmm-service-center-hotfix-availabile",""
 "Mozilla Security Advisories","2026/03/24","MFSA 2026-24 Security Vulnerabilities fixed in Thunderbird 140.9","https://www.mozilla.org/en-US/security/advisories/mfsa2026-24/",""
+"Microsoft Edge Security Updates","","","","Invalid date format"
+"Google Chrome Releases","2026/03/25","Chrome for Android Update","https://chromereleases.googleblog.com/2026/03/chrome-for-android-update_0888810258.html",""
+"FFRI Security Info","2024/07/29","【重要】FFRI AMCにおける任意のコマンド実行可能な脆弱性について","https://www.ffri.jp/assets/files/other_docs/20240729.pdf",""
+"Palo Alto","2026/03/11","CVE-2026-0231 Cortex XDR Broker VM: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)","https://security.paloaltonetworks.com/CVE-2026-0231",""
+"TrendMicro Apex One","2026/03/17","[製品]ウイルスバスター ビジネスセキュリティ サポート終了に関するお知らせ:2026/03/17 13:00:00","https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=4692",""
 "Ivanti","2026/03/10","March 2026 Security Update","https://www.ivanti.com/blog/march-2026-security-update",""
-"FORTINET","2026/03/10","OS command injection on vmimages update feature","https://fortiguard.fortinet.com/psirt/FG-IR-26-096",""
 "ShareFile","2026/03/26","Some ShareFile customers may be experiencing issues with their ShareFile account","https://status.sharefile.com/incidents/3k793nqd5rqj",""
+"FORTINET","2026/03/10","OS command injection on vmimages update feature","https://fortiguard.fortinet.com/psirt/FG-IR-26-096",""
 "WordPress","2026/03/10","WordPress 6.9.2 Release","https://wordpress.org/news/2026/03/wordpress-6-9-2-release/",""
-"AtlassianAdvisories","","","","Invalid date format"
 "Apple","2026/03/24","iOS 26.4 and iPadOS 26.4","https://support.apple.com/en-us/126792",""
+"Microsoft Edge","2026/03/29","CVE-2026-3104 Memory leak in code preparing DNSSEC proofs of non-existence","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3104",""
+"AtlassianAdvisories","","","","Invalid date format"
 "BIND","2026/03/26","Kea API and Control Sockets","https://kb.isc.org/docs/kea-api-sockets",""
 "Oracle","2026/03/19","Oracle Security Alert for CVE-2026-21992 - 19 March 2026","https://www.oracle.com/security-alerts/alert-cve-2026-21992.html",""
 "Android OS","","","","Invalid date format"
-"SolarWinds","","","","Invalid date format"
-"Proself","2026/03/27","Proself Client（iOS版）をご利用のお客様へ","https://www.proself.jp/information/176/",""
-"QNAP Systems","2026/03/21","Vulnerability in QVR Pro","https://www.qnap.com/en-us/security-advisory/QSA-26-07",""
-"CheckPoint","2026/03/30","CPAI-2025-13818","/defense/advisories/public/2026/cpai-2025-13818.html",""
-"NGINX","2026/03/24","nginx-1.28.3","https://nginx.org/en/download.html",""
-"Joomla!","2026/01/06","[20260101] - Core - Inadequate content filtering for data URLs","https://developer.joomla.org/security-centre/1016-20260101-core-inadequate-content-filtering-for-data-urls.html",""
-"F5","2026/03/29","K000156741: BIG-IP APM vulnerability CVE-2025-53521","https://my.f5.com/manage/s/article/K000156741?utm_source=f5support&utm_medium=RSS",""
-"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
-"MovableType","2026/03/09","システムメンテナンスに伴うライセンス購入およびクラウド版のお申し込み停止のお知らせ","https://www.sixapart.jp/movabletype/news/2026/03/09-1100.html",""
-"GNU C Library (glibc) Releases","","","","Invalid date format"
-"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
-"Microsoft Edge","2026/03/29","CVE-2026-3104 Memory leak in code preparing DNSSEC proofs of non-existence","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3104",""
 "Microsoft Teams","2026/03/29","CVE-2026-3104 Memory leak in code preparing DNSSEC proofs of non-existence","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3104",""
+"QNAP Systems","2026/03/21","Vulnerability in QVR Pro","https://www.qnap.com/en-us/security-advisory/QSA-26-07",""
+"SolarWinds","","","","Invalid date format"
+"NGINX","2026/03/24","nginx-1.28.3","https://nginx.org/en/download.html",""
+"CheckPoint","2026/03/30","CPAI-2025-13818","/defense/advisories/public/2026/cpai-2025-13818.html",""
+"SonicWall","2026/02/24","SonicOS multiple post-authentication vulnerabilities","https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0001",""
+"Joomla!","2026/01/06","[20260101] - Core - Inadequate content filtering for data URLs","https://developer.joomla.org/security-centre/1016-20260101-core-inadequate-content-filtering-for-data-urls.html",""
+"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
+"F5","2026/03/29","K000156741: BIG-IP APM vulnerability CVE-2025-53521","https://my.f5.com/manage/s/article/K000156741?utm_source=f5support&utm_medium=RSS",""
+"GNU C Library (glibc) Releases","","","","Invalid date format"
+"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
+"Proself","2026/03/27","Proself Client（iOS版）をご利用のお客様へ","https://www.proself.jp/information/176/",""
+"MovableType","2026/03/09","システムメンテナンスに伴うライセンス購入およびクラウド版のお申し込み停止のお知らせ","https://www.sixapart.jp/movabletype/news/2026/03/09-1100.html",""
 "Postfix","","","","Invalid date format"
+"ESET","2026/03/27","ESET Customer Advisory: Modules Review, February 2026","https://support-feed.eset.com/link/15370/17307412/ca8931",""
 "Broadcom VMware","","","","Message: 
-"
-"Cisco","","","","Message: timeout: Timed out receiving message from renderer: 59.758
-  (Session info: chrome=146.0.7680.164)
-Stacktrace:
-#0 0x55e68f986a6a <unknown>
-#1 0x55e68f395ab5 <unknown>
-#2 0x55e68f37d3bb <unknown>
-#3 0x55e68f37d0a4 <unknown>
-#4 0x55e68f37adeb <unknown>
-#5 0x55e68f37b76f <unknown>
-#6 0x55e68f38a7a0 <unknown>
-#7 0x55e68f3a44b7 <unknown>
-#8 0x55e68f3aafeb <unknown>
-#9 0x55e68f37bebf <unknown>
-#10 0x55e68f3a424b <unknown>
-#11 0x55e68f430ac6 <unknown>
-#12 0x55e68f3dbcbf <unknown>
-#13 0x55e68f3dca81 <unknown>
-#14 0x55e68f94ca64 <unknown>
-#15 0x55e68f94f951 <unknown>
-#16 0x55e68f93921e <unknown>
-#17 0x55e68f95051e <unknown>
-#18 0x55e68f91fbe0 <unknown>
-#19 0x55e68f9739b8 <unknown>
-#20 0x55e68f973b88 <unknown>
-#21 0x55e68f9854de <unknown>
-#22 0x7f7bc169caa4 <unknown>
-#23 0x7f7bc1729c6c <unknown>
 "
