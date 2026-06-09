@@ -1,14 +1,14 @@
 "SiteName","date","title","link","error"
+"Apache Tomcat 9 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 11 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 10 Security Advisories","","","","Invalid date format"
-"Apache Tomcat 9 Security Advisories","","","","Invalid date format"
 "PHP Security Releases","2025/12/18","PHP 8.1.34 Released!","https://www.php.net/archive/2025.php#2025-12-18-5",""
 "Adobe Acrobat and Reader","2026/05/12","APSB26-46 : Security update available for Adobe Premiere Pro","https://helpx.adobe.com/security/products/premiere_pro/apsb26-46.html",""
 "SAP","2026/06/09","June Patch Day Security Notes","https://support.sap.com/en/my-support/knowledge-base/security-notes-news/june-2026.html",""
-"Cisco","2026/06/08","Cisco Catalyst SD-WAN Manager Authenticated Privilege Escalation Vulnerability","https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx",""
+"Cisco","2026/06/09","Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability","https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx",""
 "一太郎","","","","Invalid date format"
-"Cisco Webex Security Advisories","2026/06/03","Cisco Webex Meetingsのクロスサイトスクリプティングの脆弱性","https://www.cisco.com/c/ja_jp/support/docs/csa/2026/cisco-sa-webex-xss-jw3NeQzS.html",""
 "Zoom Security Bulletin","2026/06/09","Zoom Workplace Mobile Clients - Improper Authorization in Handler for Custom URL Scheme","https://www.zoom.com/ja/trust/security-bulletin/ZSB-26010/",""
+"Cisco Webex Security Advisories","2026/06/03","Cisco Webex Meetingsのクロスサイトスクリプティングの脆弱性","https://www.cisco.com/c/ja_jp/support/docs/csa/2026/cisco-sa-webex-xss-jw3NeQzS.html",""
 "Aruba","2026/06/02","HPESBNW05062 rev.1 - Status of OpenSSH Keystroke Obfuscation Bypass (CVE-2024-39894) on ArubaOS-CX","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05062en_us&docLocale=en_US",""
 "SKYSEA Client View","2026/04/20","不適切なファイルアクセス権設定の脆弱性（CVE-2026-39454）","https://www.skygroup.jp/security-info/news/260420.html",""
 "BarracudaAdvisories","2026/05/12","Linux Kernel Local Privilege Escalation Vulnerabilities (Dirty Frag / CopyFail2)","https://trust.barracuda.com/security/information/linux-kernel-local-privilege-escalation-vulnerabilities-dirty-frag-copyfail2",""
@@ -20,36 +20,61 @@
 "Microsoft Edge","2026/06/09","CVE-2026-27144 Miscompilation allows memory corruption via CONVNOP-wrapped array copy in cmd/compile","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27144",""
 "TrendMicro Apex One","2026/03/31","[一般ニュース][復旧済み][誤警告情報]検出名 Ransom.Win32.TRX.XXPE50F13033 による特定のファイルの誤警告事象について:2026/03/31 14:00:00","https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=5675",""
 "Palo Alto","2026/06/03","CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: HIGH)","https://security.paloaltonetworks.com/CVE-2026-0257",""
-"FORTINET","2026/06/03","Linux Kernel vulnerability Dirty Frag","https://fortiguard.fortinet.com/psirt/FG-IR-26-144",""
 "Microsoft Teams","2026/06/09","CVE-2026-27144 Miscompilation allows memory corruption via CONVNOP-wrapped array copy in cmd/compile","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-27144",""
-"Ivanti","2026/06/01","June 2026 Ivanti Neurons for ITSM Security Update","https://www.ivanti.com/blog/june-2026-ivanti-neurons-for-itsm-security-update",""
+"Ivanti","2026/06/09","June 2026 Security Update","https://www.ivanti.com/blog/june-2026-security-update",""
 "ShareFile","2026/04/22","BuyNow, Trial Conversion & SelfService-Billing is currently experiencing technical issue while accepting Credit Cards payments","https://status.sharefile.com/incidents/7nw5lhtj9z7g",""
-"WordPress","2026/05/27","WP23","https://wordpress.org/news/2026/05/wp23/",""
 "Apple","2026/05/13","Safari 26.5","https://support.apple.com/en-us/127121",""
+"WordPress","2026/05/27","WP23","https://wordpress.org/news/2026/05/wp23/",""
 "Android OS","","","","Invalid date format"
 "AtlassianAdvisories","","","","Invalid date format"
+"ESET","2026/05/19","ESET Customer Advisory: Modules Review, April 2026","https://support-feed.eset.com/link/15370/17343983/ca8944",""
 "BIND","2026/06/05","Using DLZ in BIND","https://kb.isc.org/docs/aa-00995",""
 "Oracle","2026/05/28","Critical Security Patch Update Advisory - May 2026","https://www.oracle.com/security-alerts/cspumay2026.html",""
 "SolarWinds","","","","Invalid date format"
 "CheckPoint","2026/06/09","CPAI-2026-6406","/defense/advisories/public/2026/cpai-2026-6406.html",""
-"ESET","2026/05/19","ESET Customer Advisory: Modules Review, April 2026","https://support-feed.eset.com/link/15370/17343983/ca8944",""
 "QNAP Systems","2026/05/11","Local Privilege Escalation Vulnerability in Linux Kernel (""Dirty Frag"")","https://www.qnap.com/en-us/security-advisory/QSA-26-17",""
 "NGINX","2026/05/22","nginx-1.30.2","https://nginx.org/en/download.html",""
 "Proself","2026/05/19","Proself Ver.5の操作チュートリアルSSL証明書設定管理者編(Ver5.74以上対象)を更新しました。","https://www.proself.jp/information/proself-ver-5%e3%81%ae%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%abssl%e8%a8%bc%e6%98%8e%e6%9b%b8%e8%a8%ad%e5%ae%9a%e7%ae%a1%e7%90%86%e8%80%85%e7%b7%a8ver5-74-5/",""
-"F5","2026/06/09","K000161639: Apache HTTP Server mod_http2 (HTTP/2 Bomb) vulnerability CVE-2026-49975","https://my.f5.com/manage/s/article/K000161639?utm_source=f5support&utm_medium=RSS",""
 "Joomla!","2026/05/26","[20260520] - Framework - Inadequate content filtering within the cleanAttributes filter code","https://developer.joomla.org/security-centre/1052-20260520-framework-inadequate-content-filtering-within-the-cleanattributes-filter-code.html",""
 "MovableType","2026/05/27","CheckRelease と Uploader の最新版をインストール不要で試せる「デモ環境」の提供を開始","https://www.sixapart.jp/movabletype/news/2026/05/27-1100.html",""
 "PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
-"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
+"F5","2026/06/09","K000161639: Apache HTTP Server mod_http2 (HTTP/2 Bomb) vulnerability CVE-2026-49975","https://my.f5.com/manage/s/article/K000161639?utm_source=f5support&utm_medium=RSS",""
 "GNU C Library (glibc) Releases","","","","Invalid date format"
+"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
 "Postfix","","","","Invalid date format"
 "Citrix","","","","Message: 
 "
-"Broadcom Symantec","","","","Message: 
-"
 "Juniper","","","","Message: 
+"
+"Broadcom Symantec","","","","Message: 
 "
 "Broadcom VMware","","","","Message: 
 "
-"netgear","","","","Message: 
+"netgear","","","","Message: timeout: Timed out receiving message from renderer: 59.807
+  (Session info: chrome=148.0.7778.178)
+Stacktrace:
+#0 0x55d8a763f16a <unknown>
+#1 0x55d8a703c6b9 <unknown>
+#2 0x55d8a7023d0b <unknown>
+#3 0x55d8a7023986 <unknown>
+#4 0x55d8a70214ab <unknown>
+#5 0x55d8a7021e2f <unknown>
+#6 0x55d8a70312e0 <unknown>
+#7 0x55d8a704b427 <unknown>
+#8 0x55d8a7052c5b <unknown>
+#9 0x55d8a7022599 <unknown>
+#10 0x55d8a704b1bd <unknown>
+#11 0x55d8a70d8fcf <unknown>
+#12 0x55d8a7084222 <unknown>
+#13 0x55d8a7085011 <unknown>
+#14 0x55d8a7604a0b <unknown>
+#15 0x55d8a760792d <unknown>
+#16 0x55d8a75f1948 <unknown>
+#17 0x55d8a76084c0 <unknown>
+#18 0x55d8a75d8560 <unknown>
+#19 0x55d8a762bdd8 <unknown>
+#20 0x55d8a762bf75 <unknown>
+#21 0x55d8a763dbce <unknown>
+#22 0x7fd8cac9caa4 <unknown>
+#23 0x7fd8cad29c6c <unknown>
 "
