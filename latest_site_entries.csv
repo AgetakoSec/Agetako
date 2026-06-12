@@ -24,23 +24,23 @@
 "Ivanti","2026/06/09","June 2026 Security Update","https://www.ivanti.com/blog/june-2026-security-update",""
 "FORTINET","2026/06/09","Improper access control in API endpoints","https://fortiguard.fortinet.com/psirt/FG-IR-26-140",""
 "ShareFile","2026/04/22","BuyNow, Trial Conversion & SelfService-Billing is currently experiencing technical issue while accepting Credit Cards payments","https://status.sharefile.com/incidents/7nw5lhtj9z7g",""
-"WordPress","2026/05/27","WP23","https://wordpress.org/news/2026/05/wp23/",""
 "Apple","2026/05/13","Safari 26.5","https://support.apple.com/en-us/127121",""
-"Android OS","","","","Invalid date format"
+"WordPress","2026/05/27","WP23","https://wordpress.org/news/2026/05/wp23/",""
 "AtlassianAdvisories","","","","Invalid date format"
+"Android OS","","","","Invalid date format"
 "BIND","2026/06/12","BIND 9 Software Vulnerability Matrix","https://kb.isc.org/docs/aa-00913",""
+"ESET","2026/05/19","ESET Customer Advisory: Modules Review, April 2026","https://support-feed.eset.com/link/15370/17343983/ca8944",""
 "Oracle","2026/06/10","Oracle Security Alert Advisory - CVE-2026-35273","https://www.oracle.com/security-alerts/alert-cve-2026-35273.html",""
 "SolarWinds","","","","Invalid date format"
-"Proself","2026/05/19","Proself Ver.5の操作チュートリアルSSL証明書設定管理者編(Ver5.74以上対象)を更新しました。","https://www.proself.jp/information/proself-ver-5%e3%81%ae%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%abssl%e8%a8%bc%e6%98%8e%e6%9b%b8%e8%a8%ad%e5%ae%9a%e7%ae%a1%e7%90%86%e8%80%85%e7%b7%a8ver5-74-5/",""
-"QNAP Systems","2026/05/11","Local Privilege Escalation Vulnerability in Linux Kernel (""Dirty Frag"")","https://www.qnap.com/en-us/security-advisory/QSA-26-17",""
-"F5","2026/06/10","K000161670: Apache HTTP Server vulnerability CVE-2026-33523","https://my.f5.com/manage/s/article/K000161670?utm_source=f5support&utm_medium=RSS",""
-"NGINX","2026/05/22","nginx-1.30.2","https://nginx.org/en/download.html",""
 "CheckPoint","2026/06/12","CPAI-2026-6053","/defense/advisories/public/2026/cpai-2026-6053.html",""
+"NGINX","2026/05/22","nginx-1.30.2","https://nginx.org/en/download.html",""
+"Proself","2026/05/19","Proself Ver.5の操作チュートリアルSSL証明書設定管理者編(Ver5.74以上対象)を更新しました。","https://www.proself.jp/information/proself-ver-5%e3%81%ae%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%abssl%e8%a8%bc%e6%98%8e%e6%9b%b8%e8%a8%ad%e5%ae%9a%e7%ae%a1%e7%90%86%e8%80%85%e7%b7%a8ver5-74-5/",""
+"F5","2026/06/10","K000161670: Apache HTTP Server vulnerability CVE-2026-33523","https://my.f5.com/manage/s/article/K000161670?utm_source=f5support&utm_medium=RSS",""
 "MovableType","2026/06/11","Movable Type クラウド版で「さくらのクラウド」を利用できる新プランの提供を開始","https://www.sixapart.jp/movabletype/news/2026/06/11-1100.html",""
 "Joomla!","2026/05/26","[20260520] - Framework - Inadequate content filtering within the cleanAttributes filter code","https://developer.joomla.org/security-centre/1052-20260520-framework-inadequate-content-filtering-within-the-cleanattributes-filter-code.html",""
 "PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
-"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
 "GNU C Library (glibc) Releases","","","","Invalid date format"
+"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
 "Postfix","","","","Invalid date format"
 "Citrix","","","","Message: 
 "
@@ -48,35 +48,7 @@
 "
 "Broadcom VMware","","","","Message: 
 "
-"Broadcom Symantec","","","","Message: 
-"
 "Juniper","","","","Message: 
 "
-"ESET","","","","Message: timeout: Timed out receiving message from renderer: 59.485
-  (Session info: chrome=149.0.7827.53)
-Stacktrace:
-#0 0x55bc55f6229a <unknown>
-#1 0x55bc55944449 <unknown>
-#2 0x55bc5592bd4b <unknown>
-#3 0x55bc5592b9c6 <unknown>
-#4 0x55bc559295ab <unknown>
-#5 0x55bc55929f2f <unknown>
-#6 0x55bc55939180 <unknown>
-#7 0x55bc55953197 <unknown>
-#8 0x55bc5595a9cb <unknown>
-#9 0x55bc5592a689 <unknown>
-#10 0x55bc55952ef2 <unknown>
-#11 0x55bc559e100e <unknown>
-#12 0x55bc5598c132 <unknown>
-#13 0x55bc5598cf41 <unknown>
-#14 0x55bc55f28737 <unknown>
-#15 0x55bc55f26f39 <unknown>
-#16 0x55bc55f11c26 <unknown>
-#17 0x55bc55f27ada <unknown>
-#18 0x55bc55ef9bd0 <unknown>
-#19 0x55bc55f4ec28 <unknown>
-#20 0x55bc55f4edc5 <unknown>
-#21 0x55bc55f60e1e <unknown>
-#22 0x7fc13629caa4 <unknown>
-#23 0x7fc136329c6c <unknown>
+"Broadcom Symantec","","","","Message: 
 "
