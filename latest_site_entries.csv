@@ -1,82 +1,55 @@
 "SiteName","date","title","link","error"
-"PHP Security Releases","2025/12/18","PHP 8.1.34 Released!","https://www.php.net/archive/2025.php#2025-12-18-5",""
-"Apache Tomcat 9 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 11 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 10 Security Advisories","","","","Invalid date format"
+"Apache Tomcat 9 Security Advisories","","","","Invalid date format"
+"PHP Security Releases","2025/12/18","PHP 8.1.34 Released!","https://www.php.net/archive/2025.php#2025-12-18-5",""
 "Adobe Acrobat and Reader","2026/06/30","APSB26-68 : Security update available for Adobe ColdFusion","https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html",""
 "SAP","2026/06/09","June Patch Day Security Notes","https://support.sap.com/en/my-support/knowledge-base/security-notes-news/june-2026.html",""
+"Cisco","2026/07/01","Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability","https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW",""
 "一太郎","","","","Invalid date format"
 "Zoom Security Bulletin","2026/06/09","Zoom Workplace Mobile Clients - Improper Authorization in Handler for Custom URL Scheme","https://www.zoom.com/ja/trust/security-bulletin/ZSB-26010/",""
 "Cisco Webex Security Advisories","2026/06/03","Cisco Webex Meetingsのクロスサイトスクリプティングの脆弱性","https://www.cisco.com/c/ja_jp/support/docs/csa/2026/cisco-sa-webex-xss-jw3NeQzS.html",""
 "SKYSEA Client View","2026/04/20","不適切なファイルアクセス権設定の脆弱性（CVE-2026-39454）","https://www.skygroup.jp/security-info/news/260420.html",""
-"ESET","2026/06/29","ESET Customer Advisory: Modules Review, May 2026","https://support-feed.eset.com/link/15370/17369649/ca8963",""
 "BarracudaAdvisories","2026/05/12","Linux Kernel Local Privilege Escalation Vulnerabilities (Dirty Frag / CopyFail2)","https://trust.barracuda.com/security/information/linux-kernel-local-privilege-escalation-vulnerabilities-dirty-frag-copyfail2",""
-"FFRI Security Info","2024/07/29","【重要】FFRI AMCにおける任意のコマンド実行可能な脆弱性について","https://www.ffri.jp/assets/files/other_docs/20240729.pdf",""
 "Aruba","2026/06/30","HPESBHF05020 rev.1 - Certain HPE SimpliVity Servers Using Certain AMD EPYC Processors, AMD-SB-3023:AMD Server Vulnerabilities, Multiple Vulnerabilities","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf05020en_us&docLocale=en_US",""
+"FFRI Security Info","2024/07/29","【重要】FFRI AMCにおける任意のコマンド実行可能な脆弱性について","https://www.ffri.jp/assets/files/other_docs/20240729.pdf",""
 "Google Chrome Releases","2026/06/30","Chrome for Android Update","https://chromereleases.googleblog.com/2026/06/chrome-for-android-update_01486779060.html",""
-"Mozilla Security Advisories","2026/06/30","MFSA 2026-62 Security Vulnerabilities fixed in Firefox 152.0.4","https://www.mozilla.org/en-US/security/advisories/mfsa2026-62/",""
 "SonicWall","2026/04/29","SonicOS affected by multiple vulnerabilities","https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0004",""
+"Mozilla Security Advisories","2026/06/30","MFSA 2026-64 Security Vulnerabilities fixed in Thunderbird 140.12.1","https://www.mozilla.org/en-US/security/advisories/mfsa2026-64/",""
 "Microsoft Edge Security Updates","","","","Invalid date format"
 "Microsoft Edge","2026/07/01","CVE-2026-57062 CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is related to CVE-2026-34182.","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57062",""
-"TrendMicro Apex One","2026/03/31","[一般ニュース][復旧済み][誤警告情報]検出名 Ransom.Win32.TRX.XXPE50F13033 による特定のファイルの誤警告事象について:2026/03/31 14:00:00","https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=5675",""
+"Microsoft Teams","2026/07/01","CVE-2026-57062 CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is related to CVE-2026-34182.","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57062",""
 "Palo Alto","2026/06/13","CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)","https://security.paloaltonetworks.com/CVE-2026-0249",""
+"TrendMicro Apex One","2026/03/31","[一般ニュース][復旧済み][誤警告情報]検出名 Ransom.Win32.TRX.XXPE50F13033 による特定のファイルの誤警告事象について:2026/03/31 14:00:00","https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=5675",""
+"Ivanti","2026/06/09","June 2026 Security Update","https://www.ivanti.com/blog/june-2026-security-update",""
+"ShareFile","2026/06/30","RightSignature / eSignature uploads are failing.","https://status.sharefile.com/incidents/80fyg0z61h7y",""
+"FORTINET","2026/06/09","Improper access control in API endpoints","https://fortiguard.fortinet.com/psirt/FG-IR-26-140",""
+"WordPress","2026/05/27","WP23","https://wordpress.org/news/2026/05/wp23/",""
+"Apple","2026/06/29","iOS 26.5.2 and iPadOS 26.5.2","https://support.apple.com/en-us/127594",""
 "Citrix","","","","Message: 
 "
-"Ivanti","2026/06/09","June 2026 Security Update","https://www.ivanti.com/blog/june-2026-security-update",""
-"FORTINET","2026/06/09","Improper access control in API endpoints","https://fortiguard.fortinet.com/psirt/FG-IR-26-140",""
-"ShareFile","2026/06/30","RightSignature / eSignature uploads are failing.","https://status.sharefile.com/incidents/80fyg0z61h7y",""
-"WordPress","2026/05/27","WP23","https://wordpress.org/news/2026/05/wp23/",""
-"Microsoft Teams","2026/07/01","CVE-2026-57062 CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is related to CVE-2026-34182.","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57062",""
-"Apple","2026/06/29","iOS 26.5.2 and iPadOS 26.5.2","https://support.apple.com/en-us/127594",""
 "Android OS","","","","Invalid date format"
 "AtlassianAdvisories","","","","Invalid date format"
+"Oracle","2026/06/16","Critical Security Patch Update Advisory - June 2026","https://www.oracle.com/security-alerts/cspujun2026.html",""
 "BIND","2026/06/30","ISC Support Subscriber News Q2 2026","https://kb.isc.org/docs/isc-support-subscriber-news-q2-2026",""
+"SolarWinds","","","","Invalid date format"
+"ESET","2026/06/29","ESET Customer Advisory: Modules Review, May 2026","https://support-feed.eset.com/link/15370/17369649/ca8963",""
+"Proself","2026/06/30","Proself Ver.5の操作チュートリアルSSL証明書設定管理者編(Ver5.74以上対象)を更新しました。","https://www.proself.jp/information/proself-ver-5%e3%81%ae%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%abssl%e8%a8%bc%e6%98%8e%e6%9b%b8%e8%a8%ad%e5%ae%9a%e7%ae%a1%e7%90%86%e8%80%85%e7%b7%a8ver5-74-6/",""
+"CheckPoint","2026/07/01","CPAI-2026-8034","/defense/advisories/public/2026/cpai-2026-8034.html",""
+"QNAP Systems","2026/06/17","Vulnerabilities in QTS, QuTS hero, QuTS cloud, and QVP (QVR Pro appliances)","https://www.qnap.com/en-us/security-advisory/QSA-26-10",""
+"NGINX","2026/06/23","njs-1.0.0","https://nginx.org/en/docs/njs/index.html",""
+"Joomla!","2026/05/26","[20260520] - Framework - Inadequate content filtering within the cleanAttributes filter code","https://developer.joomla.org/security-centre/1052-20260520-framework-inadequate-content-filtering-within-the-cleanattributes-filter-code.html",""
+"MovableType","2026/06/24","[重要] Movable Type 9.2.1 / 9.0.9 / 8.8.5 / 8.0.12、Movable Type Premium 9.2.1 / 9.0.9 / 2.17 の提供を開始","https://www.sixapart.jp/movabletype/news/2026/06/24-1100.html",""
 "netgear","","","","Message: 
 "
-"Oracle","2026/06/16","Critical Security Patch Update Advisory - June 2026","https://www.oracle.com/security-alerts/cspujun2026.html",""
-"QNAP Systems","2026/06/17","Vulnerabilities in QTS, QuTS hero, QuTS cloud, and QVP (QVR Pro appliances)","https://www.qnap.com/en-us/security-advisory/QSA-26-10",""
-"SolarWinds","","","","Invalid date format"
-"NGINX","2026/06/23","njs-1.0.0","https://nginx.org/en/docs/njs/index.html",""
-"Proself","2026/06/30","Proself Ver.5の操作チュートリアルSSL証明書設定管理者編(Ver5.74以上対象)を更新しました。","https://www.proself.jp/information/proself-ver-5%e3%81%ae%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%abssl%e8%a8%bc%e6%98%8e%e6%9b%b8%e8%a8%ad%e5%ae%9a%e7%ae%a1%e7%90%86%e8%80%85%e7%b7%a8ver5-74-6/",""
-"CheckPoint","2026/06/30","CPAI-2026-8026","/defense/advisories/public/2026/cpai-2026-8026.html",""
-"Joomla!","2026/05/26","[20260520] - Framework - Inadequate content filtering within the cleanAttributes filter code","https://developer.joomla.org/security-centre/1052-20260520-framework-inadequate-content-filtering-within-the-cleanattributes-filter-code.html",""
-"Broadcom VMware","","","","Message: 
-"
-"GNU C Library (glibc) Releases","","","","Invalid date format"
+"F5","2026/07/01","K000162017: Apache Artemis vulnerability CVE-2026-27446","https://my.f5.com/manage/s/article/K000162017?utm_source=f5support&utm_medium=RSS",""
 "PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
+"GNU C Library (glibc) Releases","","","","Invalid date format"
+"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
+"Postfix","","","","Invalid date format"
 "Broadcom Symantec","","","","Message: 
 "
-"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
-"MovableType","2026/06/24","[重要] Movable Type 9.2.1 / 9.0.9 / 8.8.5 / 8.0.12、Movable Type Premium 9.2.1 / 9.0.9 / 2.17 の提供を開始","https://www.sixapart.jp/movabletype/news/2026/06/24-1100.html",""
-"F5","2026/07/01","K000162017: Apache Artemis vulnerability CVE-2026-27446","https://my.f5.com/manage/s/article/K000162017?utm_source=f5support&utm_medium=RSS",""
-"Postfix","","","","Invalid date format"
-"Juniper","","","","Message: 
+"Broadcom VMware","","","","Message: 
 "
-"Cisco","","","","Message: timeout: Timed out receiving message from renderer: 59.611
-  (Session info: chrome=149.0.7827.155)
-Stacktrace:
-#0 0x55bf1f52c3da <unknown>
-#1 0x55bf1ef0e139 <unknown>
-#2 0x55bf1eef5a1b <unknown>
-#3 0x55bf1eef5696 <unknown>
-#4 0x55bf1eef327b <unknown>
-#5 0x55bf1eef3bff <unknown>
-#6 0x55bf1ef02e70 <unknown>
-#7 0x55bf1ef1cea7 <unknown>
-#8 0x55bf1ef2471b <unknown>
-#9 0x55bf1eef4359 <unknown>
-#10 0x55bf1ef1cc09 <unknown>
-#11 0x55bf1efaaeab <unknown>
-#12 0x55bf1ef55e4f <unknown>
-#13 0x55bf1ef56c31 <unknown>
-#14 0x55bf1f4f29f7 <unknown>
-#15 0x55bf1f4f1203 <unknown>
-#16 0x55bf1f4dbf16 <unknown>
-#17 0x55bf1f4f1d9a <unknown>
-#18 0x55bf1f4c3eb0 <unknown>
-#19 0x55bf1f518d58 <unknown>
-#20 0x55bf1f518ef5 <unknown>
-#21 0x55bf1f52af5e <unknown>
-#22 0x7f6284a9caa4 <unknown>
-#23 0x7f6284b29c6c <unknown>
+"Juniper","","","","Message: 
 "
