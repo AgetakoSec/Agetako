@@ -1,7 +1,7 @@
 "SiteName","date","title","link","error"
 "Apache Tomcat 11 Security Advisories","","","","Invalid date format"
-"Apache Tomcat 10 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 9 Security Advisories","","","","Invalid date format"
+"Apache Tomcat 10 Security Advisories","","","","Invalid date format"
 "PHP Security Releases","2025/12/18","PHP 8.1.34 Released!","https://www.php.net/archive/2025.php#2025-12-18-5",""
 "Adobe Acrobat and Reader","2026/06/30","APSB26-68 : Security update available for Adobe ColdFusion","https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html",""
 "SAP","2026/06/09","June Patch Day Security Notes","https://support.sap.com/en/my-support/knowledge-base/security-notes-news/june-2026.html",""
@@ -12,71 +12,71 @@
 "Aruba","2026/07/07","HPESBNW05038 rev.1 - HPE Networking Instant On Switch Remote Unauthenticated Disclosure of Cryptographic Secrets","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05038en_us&docLocale=en_US",""
 "BarracudaAdvisories","2026/05/12","Linux Kernel Local Privilege Escalation Vulnerabilities (Dirty Frag / CopyFail2)","https://trust.barracuda.com/security/information/linux-kernel-local-privilege-escalation-vulnerabilities-dirty-frag-copyfail2",""
 "FFRI Security Info","2024/07/29","【重要】FFRI AMCにおける任意のコマンド実行可能な脆弱性について","https://www.ffri.jp/assets/files/other_docs/20240729.pdf",""
-"SonicWall","2026/04/29","SonicOS affected by multiple vulnerabilities","https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0004",""
-"Google Chrome Releases","2026/07/07","Stable Channel Update for Desktop","https://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop.html",""
 "ESET","2026/07/07","ESET Customer Advisory: Modules Review, June 2026","https://support-feed.eset.com/link/15370/17374291/ca8966",""
+"Google Chrome Releases","2026/07/08","Chrome Stable for iOS Update","https://chromereleases.googleblog.com/2026/07/chrome-stable-for-ios-update.html",""
 "Mozilla Security Advisories","2026/07/05","MFSA 2026-65 Security Vulnerabilities fixed in Firefox for iOS 152.3","https://www.mozilla.org/en-US/security/advisories/mfsa2026-65/",""
+"SonicWall","2026/04/29","SonicOS affected by multiple vulnerabilities","https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0004",""
 "Microsoft Edge Security Updates","","","","Invalid date format"
 "Microsoft Edge","2026/07/07","CVE-2026-45638 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45638",""
 "TrendMicro Apex One","2026/03/31","[一般ニュース][復旧済み][誤警告情報]検出名 Ransom.Win32.TRX.XXPE50F13033 による特定のファイルの誤警告事象について:2026/03/31 14:00:00","https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=5675",""
-"Palo Alto","2026/06/13","CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)","https://security.paloaltonetworks.com/CVE-2026-0249",""
-"Microsoft Teams","2026/07/07","CVE-2026-45638 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45638",""
+"Palo Alto","2026/07/08","CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)","https://security.paloaltonetworks.com/CVE-2026-0282",""
 "FORTINET","2026/06/09","Improper access control in API endpoints","https://fortiguard.fortinet.com/psirt/FG-IR-26-140",""
+"Microsoft Teams","2026/07/07","CVE-2026-45638 Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45638",""
 "Ivanti","2026/06/09","June 2026 Security Update","https://www.ivanti.com/blog/june-2026-security-update",""
 "ShareFile","2026/06/30","RightSignature / eSignature uploads are failing.","https://status.sharefile.com/incidents/80fyg0z61h7y",""
-"Citrix","","","","Message: 
-"
 "Apple","2026/06/29","iOS 26.5.2 and iPadOS 26.5.2","https://support.apple.com/en-us/127594",""
 "WordPress","2026/05/27","WP23","https://wordpress.org/news/2026/05/wp23/",""
 "AtlassianAdvisories","","","","Invalid date format"
 "BIND","2026/06/30","ISC Support Subscriber News Q2 2026","https://kb.isc.org/docs/isc-support-subscriber-news-q2-2026",""
+"Citrix","","","","Message: 
+"
 "Android OS","","","","Invalid date format"
 "Oracle","2026/06/16","Critical Security Patch Update Advisory - June 2026","https://www.oracle.com/security-alerts/cspujun2026.html",""
+"CheckPoint","2026/07/08","CPAI-2026-8722","/defense/advisories/public/2026/cpai-2026-8722.html",""
 "SolarWinds","","","","Invalid date format"
 "Proself","2026/06/30","Proself Ver.5の操作チュートリアルSSL証明書設定管理者編(Ver5.74以上対象)を更新しました。","https://www.proself.jp/information/proself-ver-5%e3%81%ae%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%abssl%e8%a8%bc%e6%98%8e%e6%9b%b8%e8%a8%ad%e5%ae%9a%e7%ae%a1%e7%90%86%e8%80%85%e7%b7%a8ver5-74-6/",""
 "QNAP Systems","2026/06/17","Vulnerabilities in QTS, QuTS hero, QuTS cloud, and QVP (QVR Pro appliances)","https://www.qnap.com/en-us/security-advisory/QSA-26-10",""
-"CheckPoint","2026/07/08","CPAI-2026-8722","/defense/advisories/public/2026/cpai-2026-8722.html",""
 "NGINX","2026/06/23","njs-1.0.0","https://nginx.org/en/docs/njs/index.html",""
-"Broadcom VMware","","","","Message: 
-"
-"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
-"MovableType","2026/07/08","お盆期間中の Movable Type テクニカルサポートについてのお知らせ","https://www.sixapart.jp/movabletype/news/2026/07/08-1000.html",""
-"F5","2026/07/08","K000162136: Node.js vulnerabilities CVE-2026-48615 and CVE-2026-48935","https://my.f5.com/manage/s/article/K000162136?utm_source=f5support&utm_medium=RSS",""
 "Joomla!","2026/07/07","[20260712] - Core - Incorrect Access Control in com_fields webservice endpoints","https://developer.joomla.org/security-centre/1066-20260712-core-incorrect-access-control-in-com-fields-webservice-endpoints.html",""
+"MovableType","2026/07/08","お盆期間中の Movable Type テクニカルサポートについてのお知らせ","https://www.sixapart.jp/movabletype/news/2026/07/08-1000.html",""
+"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
+"F5","2026/07/08","K000162136: Node.js vulnerabilities CVE-2026-48615 and CVE-2026-48935","https://my.f5.com/manage/s/article/K000162136?utm_source=f5support&utm_medium=RSS",""
 "GNU C Library (glibc) Releases","","","","Invalid date format"
 "NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
-"netgear","","","","Message: 
-"
 "Postfix","","","","Invalid date format"
 "Broadcom Symantec","","","","Message: 
 "
 "Juniper","","","","Message: 
 "
-"Cisco","","","","Message: timeout: Timed out receiving message from renderer: 59.687
+"Broadcom VMware","","","","Message: 
+"
+"netgear","","","","Message: 
+"
+"Cisco","","","","Message: timeout: Timed out receiving message from renderer: 59.581
   (Session info: chrome=149.0.7827.200)
 Stacktrace:
-#0 0x562659d493da <unknown>
-#1 0x56265972b139 <unknown>
-#2 0x562659712a1b <unknown>
-#3 0x562659712696 <unknown>
-#4 0x56265971027b <unknown>
-#5 0x562659710bff <unknown>
-#6 0x56265971fe70 <unknown>
-#7 0x562659739ea7 <unknown>
-#8 0x56265974171b <unknown>
-#9 0x562659711359 <unknown>
-#10 0x562659739c09 <unknown>
-#11 0x5626597c7eab <unknown>
-#12 0x562659772e4f <unknown>
-#13 0x562659773c31 <unknown>
-#14 0x562659d0f9f7 <unknown>
-#15 0x562659d0e203 <unknown>
-#16 0x562659cf8f16 <unknown>
-#17 0x562659d0ed9a <unknown>
-#18 0x562659ce0eb0 <unknown>
-#19 0x562659d35d58 <unknown>
-#20 0x562659d35ef5 <unknown>
-#21 0x562659d47f5e <unknown>
-#22 0x7f1ca409caa4 <unknown>
-#23 0x7f1ca4129c6c <unknown>
+#0 0x556576c233da <unknown>
+#1 0x556576605139 <unknown>
+#2 0x5565765eca1b <unknown>
+#3 0x5565765ec696 <unknown>
+#4 0x5565765ea27b <unknown>
+#5 0x5565765eabff <unknown>
+#6 0x5565765f9e70 <unknown>
+#7 0x556576613ea7 <unknown>
+#8 0x55657661b71b <unknown>
+#9 0x5565765eb359 <unknown>
+#10 0x556576613c09 <unknown>
+#11 0x5565766a1eab <unknown>
+#12 0x55657664ce4f <unknown>
+#13 0x55657664dc31 <unknown>
+#14 0x556576be99f7 <unknown>
+#15 0x556576be8203 <unknown>
+#16 0x556576bd2f16 <unknown>
+#17 0x556576be8d9a <unknown>
+#18 0x556576bbaeb0 <unknown>
+#19 0x556576c0fd58 <unknown>
+#20 0x556576c0fef5 <unknown>
+#21 0x556576c21f5e <unknown>
+#22 0x7fa4e2e9caa4 <unknown>
+#23 0x7fa4e2f29c6c <unknown>
 "
