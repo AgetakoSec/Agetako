@@ -9,8 +9,8 @@
 "一太郎","","","","Invalid date format"
 "Zoom Security Bulletin","2026/07/14","Zoom Workplace for Windows - Improper Input Validation","https://www.zoom.com/ja/trust/security-bulletin/ZSB-26014/",""
 "Cisco Webex Security Advisories","2026/06/03","Cisco Webex Meetingsのクロスサイトスクリプティングの脆弱性","https://www.cisco.com/c/ja_jp/support/docs/csa/2026/cisco-sa-webex-xss-jw3NeQzS.html",""
-"Aruba","2026/07/22","HPESBNW05081 rev.1 - Multiple Vulnerabilities in HPE Aruba Networking AOS-CX","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05081en_us&docLocale=en_US",""
 "SKYSEA Client View","2026/04/20","不適切なファイルアクセス権設定の脆弱性（CVE-2026-39454）","https://www.skygroup.jp/security-info/news/260420.html",""
+"Aruba","2026/07/22","HPESBNW05081 rev.1 - Multiple Vulnerabilities in HPE Aruba Networking AOS-CX","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05081en_us&docLocale=en_US",""
 "BarracudaAdvisories","2026/05/12","Linux Kernel Local Privilege Escalation Vulnerabilities (Dirty Frag / CopyFail2)","https://trust.barracuda.com/security/information/linux-kernel-local-privilege-escalation-vulnerabilities-dirty-frag-copyfail2",""
 "FFRI Security Info","2024/07/29","【重要】FFRI AMCにおける任意のコマンド実行可能な脆弱性について","https://www.ffri.jp/assets/files/other_docs/20240729.pdf",""
 "Google Chrome Releases","2026/07/21","Chrome for Android Update","https://chromereleases.googleblog.com/2026/07/chrome-for-android-update_0455144006.html",""
@@ -30,26 +30,26 @@
 "Android OS","","","","Invalid date format"
 "BIND","2026/07/22","Kea HA Strategies Comparison","https://kb.isc.org/docs/kea-ha-strategies-comparison",""
 "Oracle","2026/07/21","Oracle Critical Patch Update Advisory - July 2026","https://www.oracle.com/security-alerts/cpujul2026.html",""
-"Proself","2026/07/09","SAML認証オプション 操作チュートリアル Okta連携編を公開しました。","https://www.proself.jp/information/saml%e8%aa%8d%e8%a8%bc%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3-%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-okta%e9%80%a3%e6%90%ba%e7%b7%a8%e3%82%92%e5%85%ac/",""
 "SolarWinds","","","","Invalid date format"
+"Proself","2026/07/09","SAML認証オプション 操作チュートリアル Okta連携編を公開しました。","https://www.proself.jp/information/saml%e8%aa%8d%e8%a8%bc%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3-%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-okta%e9%80%a3%e6%90%ba%e7%b7%a8%e3%82%92%e5%85%ac/",""
 "CheckPoint","2026/07/23","CPAI-2026-9517","/defense/advisories/public/2026/cpai-2026-9517.html",""
-"ESET","2026/07/15","ESET Customer Advisory: Use-after-free vulnerability in ESET security products for Linux fixed","https://support-feed.eset.com/link/15370/17380664/ca8972",""
 "QNAP Systems","2026/06/17","Vulnerabilities in QTS, QuTS hero, QuTS cloud, and QVP (QVR Pro appliances)","https://www.qnap.com/en-us/security-advisory/QSA-26-10",""
+"ESET","2026/07/15","ESET Customer Advisory: Use-after-free vulnerability in ESET security products for Linux fixed","https://support-feed.eset.com/link/15370/17380664/ca8972",""
 "NGINX","2026/07/15","nginx-1.30.4","https://nginx.org/en/download.html",""
-"Citrix","","","","Message: 
-"
 "Joomla!","2026/07/07","[20260712] - Core - Incorrect Access Control in com_fields webservice endpoints","https://developer.joomla.org/security-centre/1066-20260712-core-incorrect-access-control-in-com-fields-webservice-endpoints.html",""
-"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
-"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
-"F5","2026/07/23","K000162387: PostgreSQL vulnerability CVE-2026-6476","https://my.f5.com/manage/s/article/K000162387?utm_source=f5support&utm_medium=RSS",""
-"Postfix","","","","Invalid date format"
 "MovableType","2026/07/15","Movable Type クラウド版の OS のバージョンを更新しました","https://www.sixapart.jp/movabletype/news/2026/07/15-1100.html",""
-"netgear","","","","Message: 
-"
-"Juniper","","","","Message: 
+"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
+"F5","2026/07/23","K000162387: PostgreSQL vulnerability CVE-2026-6476","https://my.f5.com/manage/s/article/K000162387?utm_source=f5support&utm_medium=RSS",""
+"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
+"Postfix","","","","Invalid date format"
+"Citrix","","","","Message: 
 "
 "Broadcom VMware","","","","Message: 
 "
 "Broadcom Symantec","","","","Message: 
+"
+"Juniper","","","","Message: 
+"
+"netgear","","","","Message: 
 "
 "GNU C Library (glibc) Releases","","","","Invalid date format"
