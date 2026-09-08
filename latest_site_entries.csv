@@ -1,54 +1,81 @@
 "SiteName","date","title","link","error"
-"PHP Security Releases","2025/12/18","PHP 8.1.34 Released!","https://www.php.net/archive/2025.php#2025-12-18-5",""
 "Apache Tomcat 11 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 10 Security Advisories","","","","Invalid date format"
 "Apache Tomcat 9 Security Advisories","","","","Invalid date format"
-"Adobe Acrobat and Reader","2026/08/25","APSB26-110 : Security update available for Content Credentials SDK","https://helpx.adobe.com/security/products/content-authenticity-sdk/apsb26-110.html",""
-"SAP","2026/08/11","August Patch Day Security Notes","https://support.sap.com/en/my-support/knowledge-base/security-notes-news/august-2026.html",""
+"PHP Security Releases","2025/12/18","PHP 8.1.34 Released!","https://www.php.net/archive/2025.php#2025-12-18-5",""
+"Adobe Acrobat and Reader","2026/09/07","APSB26-146 : Security update available for Adobe Commerce","https://helpx.adobe.com/security/products/magento/apsb26-146.html",""
+"SAP","2026/09/08","September Patch Day Security Notes","https://support.sap.com/en/my-support/knowledge-base/security-notes-news/september-2026.html",""
 "一太郎","","","","Invalid date format"
-"Cisco","2026/09/04","Cisco IOS XR Software Security Hardening Release: September 2026","https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM",""
-"Cisco Webex Security Advisories","2026/06/03","Cisco Webex Meetingsのクロスサイトスクリプティングの脆弱性","https://www.cisco.com/c/ja_jp/support/docs/csa/2026/cisco-sa-webex-xss-jw3NeQzS.html",""
 "Zoom Security Bulletin","2026/08/11","Zoom Clients - Use After Free","https://www.zoom.com/ja/trust/security-bulletin/ZSB-26017/",""
-"Aruba","2026/09/04","HPESBHF05108 rev.1 - HPE StoreEasy Server Using Certain Intel Processors, INTEL-SA-01436, Intel Trust Domain Extensions (Intel TDX) module Advisory, Multiple Vulnerabilities","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf05108en_us&docLocale=en_US",""
+"Cisco Webex Security Advisories","2026/06/03","Cisco Webex Meetingsのクロスサイトスクリプティングの脆弱性","https://www.cisco.com/c/ja_jp/support/docs/csa/2026/cisco-sa-webex-xss-jw3NeQzS.html",""
 "SKYSEA Client View","2026/08/24","SKYSEA Client ViewおよびSKYMEC IT Managerにおける複数の脆弱性（CVE-2026-66109、CVE-2026-68062、CVE-2026-68959、CVE-2026-68960、CVE-2026-69665）","https://www.skygroup.jp/security-info/news/260824.html",""
+"Aruba","2026/09/04","HPESBHF05108 rev.1 - HPE StoreEasy Server Using Certain Intel Processors, INTEL-SA-01436, Intel Trust Domain Extensions (Intel TDX) module Advisory, Multiple Vulnerabilities","https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbhf05108en_us&docLocale=en_US",""
 "BarracudaAdvisories","2026/09/03","No Affiliation with “Barracuda” Ransomware Group","https://trust.barracuda.com/security/information/no-affiliation-with-ransomware-group",""
 "FFRI Security Info","2024/07/29","【重要】FFRI AMCにおける任意のコマンド実行可能な脆弱性について","https://www.ffri.jp/assets/files/other_docs/20240729.pdf",""
-"Google Chrome Releases","2026/09/03","Chrome for Android Update","https://chromereleases.googleblog.com/2026/09/chrome-for-android-update.html",""
 "SonicWall","2026/09/03","SonicWall NSM On-Prem Affected By Multiple Vulnerabilities","https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0015",""
+"ESET","2026/08/14","ESET Customer Advisory: Modules Review, July 2026","https://support-feed.eset.com/link/15370/17417785/ca8992",""
+"Google Chrome Releases","2026/09/03","Chrome for Android Update","https://chromereleases.googleblog.com/2026/09/chrome-for-android-update.html",""
 "Mozilla Security Advisories","2026/09/01","MFSA 2026-88 Security Vulnerabilities fixed in Thunderbird 153.2","https://www.mozilla.org/en-US/security/advisories/mfsa2026-88/",""
 "Microsoft Edge Security Updates","","","","Invalid date format"
 "Microsoft Edge","2026/09/04","CVE-2026-50376 Windows Remote Desktop Client Information Disclosure Vulnerability","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50376",""
 "TrendMicro Apex One","2026/03/31","[一般ニュース][復旧済み][誤警告情報]検出名 Ransom.Win32.TRX.XXPE50F13033 による特定のファイルの誤警告事象について:2026/03/31 14:00:00","https://appweb.trendmicro.com/SupportNews/NewsDetail.aspx?id=5675",""
 "Palo Alto","2026/08/27","CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: HIGH)","https://security.paloaltonetworks.com/CVE-2026-0251",""
-"Microsoft Teams","2026/09/04","CVE-2026-50376 Windows Remote Desktop Client Information Disclosure Vulnerability","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50376",""
-"Ivanti","2026/08/11","August 2026 Security Update","https://www.ivanti.com/blog/august-2026-security-update",""
-"ShareFile","2026/09/01","Automated workflow email notifications disabled","https://status.sharefile.com/incidents/tpf30l4kyq08",""
 "FORTINET","2026/08/12","HTTP/2 Bomb CVE-2026-49975","https://fortiguard.fortinet.com/psirt/FG-IR-26-163",""
+"Ivanti","2026/08/11","August 2026 Security Update","https://www.ivanti.com/blog/august-2026-security-update",""
+"Microsoft Teams","2026/09/04","CVE-2026-50376 Windows Remote Desktop Client Information Disclosure Vulnerability","https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50376",""
+"Citrix","","","","Message: 
+"
+"ShareFile","2026/09/01","Automated workflow email notifications disabled","https://status.sharefile.com/incidents/tpf30l4kyq08",""
 "WordPress","2026/08/12","WordPress 7.0.4 Release","https://wordpress.org/news/2026/08/wordpress-7-0-4-release/",""
 "Apple","2026/08/18","Safari 26.6.1","https://support.apple.com/en-us/148286",""
 "AtlassianAdvisories","","","","Invalid date format"
-"Android OS","","","","Invalid date format"
-"BIND","2026/09/07","DNSSEC Key and Signing Policy","https://kb.isc.org/docs/dnssec-key-and-signing-policy",""
+"BIND","2026/09/08","Standard DHCP Options Defined in ISC DHCP and Kea","https://kb.isc.org/docs/standard-dhcp-options",""
 "Oracle","2026/08/18","Oracle Critical Security Patch Update Advisory - August 2026","https://www.oracle.com/security-alerts/cspuaug2026.html",""
 "SolarWinds","","","","Invalid date format"
-"QNAP Systems","2026/06/17","Vulnerabilities in QTS, QuTS hero, QuTS cloud, and QVP (QVR Pro appliances)","https://www.qnap.com/en-us/security-advisory/QSA-26-10",""
-"Proself","2026/09/07","SAML認証オプション 操作チュートリアル Microsoft Entra ID(旧Azure Active Directory)連携編を更新しました。","https://www.proself.jp/information/saml%e8%aa%8d%e8%a8%bc%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3-%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-microsoft-entra-id%e6%97%a7azure-active-director-7/",""
-"Citrix","","","","Message: 
-"
-"ESET","2026/08/14","ESET Customer Advisory: Modules Review, July 2026","https://support-feed.eset.com/link/15370/17417785/ca8992",""
-"NGINX","2026/09/02","nginx-1.31.5","https://nginx.org/en/download.html",""
-"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
-"F5","2026/09/07","K000156675: tcpdump vulnerabilities CVE-2018-10103 and CVE-2018-10105","https://my.f5.com/manage/s/article/K000156675?utm_source=f5support&utm_medium=RSS",""
-"GNU C Library (glibc) Releases","","","","Invalid date format"
-"Joomla!","2026/08/17","[20260810] - Core - Unrestricted uploads of SHTML files","https://developer.joomla.org/security-centre/1077-20260810-core-unrestricted-uploads-of-shtml-files.html",""
-"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
-"MovableType","2026/08/25","Movable Type Premium に同梱している Premium Search プラグインの提供終了に関するお知らせ","https://www.sixapart.jp/movabletype/news/2026/08/25-1100.html",""
-"Postfix","","","","Invalid date format"
 "Broadcom Symantec","","","","Message: 
 "
+"QNAP Systems","2026/06/17","Vulnerabilities in QTS, QuTS hero, QuTS cloud, and QVP (QVR Pro appliances)","https://www.qnap.com/en-us/security-advisory/QSA-26-10",""
+"Proself","2026/09/07","SAML認証オプション 操作チュートリアル Microsoft Entra ID(旧Azure Active Directory)連携編を更新しました。","https://www.proself.jp/information/saml%e8%aa%8d%e8%a8%bc%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3-%e6%93%8d%e4%bd%9c%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-microsoft-entra-id%e6%97%a7azure-active-director-7/",""
+"Android OS","","","","Invalid date format"
+"NGINX","2026/09/02","nginx-1.31.5","https://nginx.org/en/download.html",""
+"MovableType","2026/08/25","Movable Type Premium に同梱している Premium Search プラグインの提供終了に関するお知らせ","https://www.sixapart.jp/movabletype/news/2026/08/25-1100.html",""
 "netgear","","","","Message: 
+"
+"PHPMailer GitHub","2021/06/16","A validation function with the same name as a built-in validator can be called","https://github.com/PHPMailer/PHPMailer/security/advisories/GHSA-77mr-wc79-m8j3",""
+"NTP Release","2024/05/25","4.2.8p18","https://www.ntp.org/support/securitynotice/4_2_8p18-release-announcement/",""
+"GNU C Library (glibc) Releases","","","","Invalid date format"
+"F5","2026/09/08","K000163240: Multiple Apache Tomcat vulnerabilities","https://my.f5.com/manage/s/article/K000163240?utm_source=f5support&utm_medium=RSS",""
+"Joomla!","2026/08/17","[20260810] - Core - Unrestricted uploads of SHTML files","https://developer.joomla.org/security-centre/1077-20260810-core-unrestricted-uploads-of-shtml-files.html",""
+"Broadcom VMware","","","","Message: 
 "
 "Juniper","","","","Message: 
 "
-"Broadcom VMware","","","","Message: 
+"Postfix","","","","Invalid date format"
+"Cisco","","","","Message: timeout: Timed out receiving message from renderer: 59.281
+  (Session info: chrome=152.0.7977.64)
+Stacktrace:
+#0 0x55d37bbad03a <unknown>
+#1 0x55d37b5154c9 <unknown>
+#2 0x55d37b4fcf5b <unknown>
+#3 0x55d37b4fcbd6 <unknown>
+#4 0x55d37b4fa7b8 <unknown>
+#5 0x55d37b4fb13f <unknown>
+#6 0x55d37b50a200 <unknown>
+#7 0x55d37b524147 <unknown>
+#8 0x55d37b52bb1b <unknown>
+#9 0x55d37b4fb899 <unknown>
+#10 0x55d37b523ea7 <unknown>
+#11 0x55d37b5b3900 <unknown>
+#12 0x55d37b55e83b <unknown>
+#13 0x55d37b55f621 <unknown>
+#14 0x55d37bb715f0 <unknown>
+#15 0x55d37bb6fc6a <unknown>
+#16 0x55d37bb5a9f5 <unknown>
+#17 0x55d37bb7092a <unknown>
+#18 0x55d37bb43d10 <unknown>
+#19 0x55d37bb98158 <unknown>
+#20 0x55d37bb982f5 <unknown>
+#21 0x55d37bbabbc3 <unknown>
+#22 0x7f80e6c9cb84 <unknown>
+#23 0x7f80e6d29d6c <unknown>
 "
